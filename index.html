@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MONOPOLY GO! — Playable Creative Board</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#F4EFE8;color:#3C3C3C;padding:40px 4%}
+.wrap{max-width:1240px;margin:0 auto}
+h1{font-size:30px;font-weight:800}
+h1 .brand{color:#ED1B24}
+.sub{color:#777;font-size:15px;margin:6px 0 26px}
+.stats{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:34px}
+.stat{flex:1 1 200px;background:#fff;border:2px solid #E5E5E5;border-radius:16px;padding:18px 20px}
+.stat b{display:block;font-size:26px;color:#ED1B24;font-weight:800}
+.stat span{font-size:13px;color:#777;font-weight:600;line-height:1.4}
+h2{font-size:15px;font-weight:800;letter-spacing:1.5px;color:#AFAFAF;text-transform:uppercase;margin:36px 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(430px,1fr));gap:18px}
+@media(max-width:520px){.grid{grid-template-columns:1fr}}
+.card{background:#fff;border:2px solid #E5E5E5;border-bottom-width:5px;border-radius:18px;padding:20px;display:flex;gap:18px}
+@media(max-width:560px){.card{flex-direction:column;align-items:center}}
+.phonewrap{flex-shrink:0;text-align:center}
+.phone{width:206px;height:406px;border-radius:22px;border:3px solid #3C3C3C;overflow:hidden;position:relative;background:#fff;box-shadow:0 6px 18px rgba(0,0,0,.12)}
+.phone iframe{width:375px;height:740px;border:0;transform:scale(0.5413);transform-origin:0 0;display:block}
+.replay{margin-top:8px;background:none;border:1.5px solid #E5E5E5;border-radius:10px;color:#AFAFAF;font-size:11px;font-weight:800;letter-spacing:.6px;padding:5px 12px;cursor:pointer}
+.replay:hover{color:#ED1B24;border-color:#ED1B24}
+.meta{flex:1;min-width:0}
+.name{font-size:18px;font-weight:800}
+.fmt{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.5px;color:#1899D6;background:#DDF4FF;border-radius:8px;padding:3px 8px;margin:6px 0 10px}
+.fmt.hot{color:#CC7800;background:#FFF3D6}
+.hook{font-size:13.5px;color:#555;line-height:1.55;margin-bottom:10px}
+.thesis{font-size:12.5px;color:#8a8a8a;line-height:1.55}
+.thesis b{color:#C0142B}
+.file{font-size:10.5px;color:#AFAFAF;margin-top:10px;word-break:break-all;font-family:Menlo,monospace}
+.live{display:inline-block;font-size:10px;font-weight:800;color:#fff;background:#FF4B4B;border-radius:6px;padding:2px 7px;letter-spacing:1px;vertical-align:3px;margin-left:8px}
+table{width:100%;border-collapse:collapse;background:#fff;border:2px solid #E5E5E5;border-radius:16px;overflow:hidden;font-size:13.5px}
+th{background:#ED1B24;color:#fff;font-weight:800;text-align:left;padding:11px 14px;font-size:12px;letter-spacing:.8px;text-transform:uppercase}
+td{padding:11px 14px;border-top:1px solid #EFEFEF;color:#555;vertical-align:top}
+td:first-child{font-weight:700;color:#3C3C3C;white-space:nowrap}
+.note{background:#FFF8E1;border:2px solid #FFC800;border-radius:14px;padding:16px 18px;font-size:13px;color:#7A5800;line-height:1.6;margin-top:30px}
+footer{margin-top:28px;font-size:12px;color:#AFAFAF;line-height:1.7}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1><span class="brand">MONOPOLY GO!</span> &times; Unity Ads &mdash; Playable Creative Board</h1>
+<p class="sub">5 Unity-compliant playable concepts, built around <b>real MONOPOLY GO mechanics</b> &mdash; every demo below is live, tap and play it right here &middot; MRAID 3.0 &middot; single file &middot; &lt;5&nbsp;MB &middot; portrait&nbsp;+&nbsp;landscape &middot; iOS&nbsp;+&nbsp;Android CTAs &middot; July 2026</p>
+<div class="stats"><div class="stat"><b>up to 16&times;</b><span>conversion vs. non-interactive formats &mdash; when the player rolls the dice before install (playable benchmark, 2025)</span></div><div class="stat"><b>2&ndash;3&times;</b><span>CTR vs. standard video / playable-slider creative</span></div><div class="stat"><b>15&ndash;80s</b><span>engagement window we see across narrative interactive creatives on the network, vs. 5&ndash;7s on standard video</span></div><div class="stat"><b>+30&ndash;40%</b><span>post-install retention when users try the core mechanic first</span></div></div>
+<h2>Signature MONOPOLY GO mechanics &mdash; premium craft</h2><div class="grid"><div class="card"><div class="phonewrap"><div class="phone"><iframe id="pf0" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;&gt;
+&lt;title&gt;MONOPOLY GO Playable — Dice Roll&lt;/title&gt;
+&lt;style&gt;
+html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);font-family:-apple-system,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,sans-serif}
+body{background:#0E5C3A;background:-webkit-radial-gradient(50% 30%,#1C7A4E 0%,#0C4E31 70%,#083824 100%);background:radial-gradient(circle at 50% 30%,#1C7A4E 0%,#0C4E31 70%,#083824 100%)}
+#stage{position:absolute;top:0;left:0;right:0;bottom:0;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;touch-action:manipulation}
+/* banner */
+#banner{margin-top:5%;text-align:center}
+.logo{display:inline-block;background:#ED1B24;color:#fff;font-weight:900;letter-spacing:1px;font-size:26px;padding:7px 18px;border-radius:10px;border:3px solid #fff;box-shadow:0 4px 0 #9B0C16,0 6px 14px rgba(0,0,0,.35);text-shadow:0 2px 0 #9B0C16;-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}
+.logo small{font-size:15px;vertical-align:3px;letter-spacing:2px}
+/* hud */
+#hud{width:88%;max-width:520px;margin-top:14px;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:space-between;justify-content:space-between}
+.pill{background:rgba(0,0,0,.28);border:2px solid rgba(255,255,255,.25);border-radius:20px;padding:6px 13px;color:#fff;font-weight:800;font-size:14px;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center}
+.pill b{color:#FFD54A;margin-left:6px}
+#timer .t{color:#fff;margin-left:6px}
+.dieicon{width:15px;height:15px;background:#fff;border-radius:4px;display:inline-block;position:relative;margin-right:6px}
+.dieicon:before,.dieicon:after{content:&quot;&quot;;position:absolute;width:3px;height:3px;border-radius:50%;background:#111}
+.dieicon:before{top:3px;left:3px}.dieicon:after{bottom:3px;right:3px}
+/* track */
+#track{width:92%;max-width:540px;margin:20px 0 6px;display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;position:relative;-webkit-flex-wrap:nowrap;flex-wrap:nowrap}
+.tile{width:13%;max-width:64px;height:0;padding-bottom:13%;margin:0 1.4%;position:relative;background:#F7EFDD;border-radius:9px;box-shadow:0 3px 0 rgba(0,0,0,.28);overflow:hidden}
+.tile .band{position:absolute;top:0;left:0;right:0;height:32%}
+.tile .lab{position:absolute;bottom:6%;left:0;right:0;text-align:center;font-size:9px;font-weight:800;color:#5a4a2a}
+.tile.mega{background:#FFD54A;box-shadow:0 3px 0 #C79412,0 0 0 3px #fff,0 0 18px rgba(255,213,74,.7)}
+.tile.mega .lab{font-size:14px;color:#7a5600;bottom:24%}
+.tile.mega .sub{position:absolute;bottom:8%;left:0;right:0;text-align:center;font-size:8px;font-weight:800;color:#a07a12}
+.tile.lit{-webkit-animation:litpop .4s ease;animation:litpop .4s ease}
+@-webkit-keyframes litpop{0%{-webkit-transform:scale(1)}45%{-webkit-transform:scale(1.16)}100%{-webkit-transform:scale(1)}}
+@keyframes litpop{0%{transform:scale(1)}45%{transform:scale(1.16)}100%{transform:scale(1)}}
+/* token */
+#token{position:absolute;width:34px;height:34px;top:-16px;left:0;z-index:6;-webkit-transition:left .26s cubic-bezier(.34,1.56,.64,1);transition:left .26s cubic-bezier(.34,1.56,.64,1);pointer-events:none}
+#token.hop{-webkit-animation:hop .26s ease;animation:hop .26s ease}
+@-webkit-keyframes hop{0%,100%{-webkit-transform:translateY(0) scale(1,1)}30%{-webkit-transform:translateY(-26px) scale(.9,1.12)}70%{-webkit-transform:translateY(0) scale(1.14,.86)}}
+@keyframes hop{0%,100%{transform:translateY(0) scale(1,1)}30%{transform:translateY(-26px) scale(.9,1.12)}70%{transform:translateY(0) scale(1.14,.86)}}
+/* dice area */
+#dicewrap{-webkit-flex:1;flex:1;width:100%;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;min-height:0}
+#dicerow{display:-webkit-flex;display:flex}
+.die{width:62px;height:62px;background:#fff;border-radius:14px;margin:0 9px;position:relative;box-shadow:inset 0 -6px 0 rgba(0,0,0,.12),0 8px 0 rgba(0,0,0,.3),0 12px 20px rgba(0,0,0,.35)}
+.die.roll{-webkit-animation:tumble .12s linear infinite;animation:tumble .12s linear infinite}
+@-webkit-keyframes tumble{0%{-webkit-transform:translateY(-14px) rotate(-16deg)}50%{-webkit-transform:translateY(-30px) rotate(14deg)}100%{-webkit-transform:translateY(-14px) rotate(-16deg)}}
+@keyframes tumble{0%{transform:translateY(-14px) rotate(-16deg)}50%{transform:translateY(-30px) rotate(14deg)}100%{transform:translateY(-14px) rotate(-16deg)}}
+.die.land{-webkit-animation:diland .3s ease;animation:diland .3s ease}
+@-webkit-keyframes diland{0%{-webkit-transform:translateY(-18px) scale(1.1,.9)}60%{-webkit-transform:translateY(2px) scale(.94,1.08)}100%{-webkit-transform:translateY(0) scale(1,1)}}
+@keyframes diland{0%{transform:translateY(-18px) scale(1.1,.9)}60%{transform:translateY(2px) scale(.94,1.08)}100%{transform:translateY(0) scale(1,1)}}
+.pip{position:absolute;width:12px;height:12px;border-radius:50%;background:#C0142B;background:-webkit-radial-gradient(30% 30%,#ff5a68,#C0142B);background:radial-gradient(circle at 30% 30%,#ff5a68,#C0142B);opacity:0;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+.pip.on{opacity:1}
+.p1{left:50%;top:50%}.p2{left:26%;top:26%}.p3{left:74%;top:74%}.p4{left:74%;top:26%}.p5{left:26%;top:74%}.p6{left:26%;top:50%}.p7{left:74%;top:50%}
+#prompt{margin-top:22px;text-align:center;color:#fff}
+#prompt .cta{font-size:19px;font-weight:900;letter-spacing:1px;text-shadow:0 2px 3px rgba(0,0,0,.4)}
+#hand{font-size:30px;display:inline-block;margin-top:4px;-webkit-animation:tap 1.1s ease-in-out infinite;animation:tap 1.1s ease-in-out infinite}
+@-webkit-keyframes tap{0%,100%{-webkit-transform:translateY(0)}50%{-webkit-transform:translateY(9px)}}
+@keyframes tap{0%,100%{transform:translateY(0)}50%{transform:translateY(9px)}}
+#prompt.hide{opacity:0;-webkit-transition:opacity .2s;transition:opacity .2s;pointer-events:none}
+/* cash popup */
+#cashpop{position:absolute;left:50%;top:40%;-webkit-transform:translate(-50%,-50%) scale(.4);transform:translate(-50%,-50%) scale(.4);opacity:0;color:#fff;font-weight:900;font-size:34px;text-shadow:0 3px 0 #0a3a24,0 0 22px rgba(255,213,74,.9);z-index:20;pointer-events:none}
+#cashpop.show{-webkit-animation:cashin .5s cubic-bezier(.34,1.56,.64,1) forwards;animation:cashin .5s cubic-bezier(.34,1.56,.64,1) forwards}
+@-webkit-keyframes cashin{0%{opacity:0;-webkit-transform:translate(-50%,-50%) scale(.4)}60%{opacity:1;-webkit-transform:translate(-50%,-64%) scale(1.15)}100%{opacity:1;-webkit-transform:translate(-50%,-60%) scale(1)}}
+@keyframes cashin{0%{opacity:0;transform:translate(-50%,-50%) scale(.4)}60%{opacity:1;transform:translate(-50%,-64%) scale(1.15)}100%{opacity:1;transform:translate(-50%,-60%) scale(1)}}
+.coin{position:absolute;width:26px;height:26px;z-index:15;pointer-events:none;will-change:transform,opacity}
+/* mini cta */
+#minicta{position:absolute;left:50%;bottom:3.5%;-webkit-transform:translateX(-50%);transform:translateX(-50%);padding:11px 24px;border:0;border-radius:14px;background:#FFD54A;box-shadow:0 5px 0 #C79412;color:#7a5600;font-size:14px;font-weight:900;letter-spacing:.6px;cursor:pointer;z-index:8}
+/* endcard */
+#endcard{position:absolute;top:0;left:0;right:0;bottom:0;background:#ED1B24;background:-webkit-radial-gradient(50% 24%,#ff3a43,#c50f18);background:radial-gradient(circle at 50% 24%,#ff3a43,#c50f18);display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;opacity:0;visibility:hidden;-webkit-transition:opacity .4s ease;transition:opacity .4s ease;z-index:30}
+#endcard.show{opacity:1;visibility:visible}
+#endcard .man{width:150px;height:auto}
+#eh{color:#fff;font-size:25px;font-weight:900;margin:8px 8% 4px;text-align:center;text-shadow:0 2px 0 #9B0C16}
+#es{color:#FFE08A;font-size:15px;font-weight:700;margin:0 12% 20px;text-align:center;line-height:1.4}
+#cta{padding:16px 40px;border:0;border-radius:16px;background:#FFD54A;box-shadow:0 6px 0 #C79412;color:#7a5600;font-size:18px;font-weight:900;letter-spacing:1px;cursor:pointer}
+.pulse{-webkit-animation:pulse 1.3s ease-in-out infinite;animation:pulse 1.3s ease-in-out infinite}
+@-webkit-keyframes pulse{0%,100%{-webkit-transform:scale(1)}50%{-webkit-transform:scale(1.06)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+.float{-webkit-animation:float 2.4s ease-in-out infinite;animation:float 2.4s ease-in-out infinite}
+@-webkit-keyframes float{0%,100%{-webkit-transform:translateY(0) rotate(-1deg)}50%{-webkit-transform:translateY(-10px) rotate(1deg)}}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-10px) rotate(1deg)}}
+body.paused *{-webkit-animation-play-state:paused !important;animation-play-state:paused !important}
+@media (prefers-reduced-motion:reduce){.float,.pulse,#hand{-webkit-animation:none;animation:none}}
+@media (orientation:landscape){
+  #banner{margin-top:2%}
+  .logo{font-size:20px}
+  #track{margin:10px 0 4px}
+  .die{width:52px;height:52px}
+  #prompt{margin-top:12px}
+  #endcard{-webkit-flex-direction:row;flex-direction:row}
+  #endcard .man{width:120px;margin-right:4%}
+  #endcard .col{max-width:52%;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center}
+  #eh{font-size:21px}
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body class=&quot;paused&quot;&gt;&lt;script&gt;window.mraid={_l:{},getState:function(){return &quot;default&quot;},isViewable:function(){return true},addEventListener:function(e,f){this._l[e]=f},removeEventListener:function(){},open:function(u){window.open(u,&quot;_blank&quot;)}};&lt;/script&gt;
+&lt;div id=&quot;stage&quot;&gt;
+  &lt;div id=&quot;banner&quot;&gt;&lt;span class=&quot;logo&quot;&gt;MONOPOLY &lt;small&gt;GO!&lt;/small&gt;&lt;/span&gt;&lt;/div&gt;
+  &lt;div id=&quot;hud&quot;&gt;
+    &lt;div class=&quot;pill&quot;&gt;&lt;span class=&quot;dieicon&quot;&gt;&lt;/span&gt;ROLLS&lt;b id=&quot;rolls&quot;&gt;27&lt;/b&gt;&lt;/div&gt;
+    &lt;div class=&quot;pill&quot; id=&quot;timer&quot;&gt;&lt;span&gt;&amp;#9201;&lt;/span&gt;&lt;span class=&quot;t&quot; id=&quot;tval&quot;&gt;0:25&lt;/span&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;track&quot;&gt;
+    &lt;div class=&quot;tile&quot; data-i=&quot;0&quot;&gt;&lt;div class=&quot;band&quot; style=&quot;background:#8B5A2B&quot;&gt;&lt;/div&gt;&lt;div class=&quot;lab&quot;&gt;GO&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;tile&quot; data-i=&quot;1&quot;&gt;&lt;div class=&quot;band&quot; style=&quot;background:#5BC0EB&quot;&gt;&lt;/div&gt;&lt;div class=&quot;lab&quot;&gt;+120&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;tile&quot; data-i=&quot;2&quot;&gt;&lt;div class=&quot;band&quot; style=&quot;background:#E23B7A&quot;&gt;&lt;/div&gt;&lt;div class=&quot;lab&quot;&gt;RENT&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;tile&quot; data-i=&quot;3&quot;&gt;&lt;div class=&quot;band&quot; style=&quot;background:#F19A3E&quot;&gt;&lt;/div&gt;&lt;div class=&quot;lab&quot;&gt;+340&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;tile&quot; data-i=&quot;4&quot;&gt;&lt;div class=&quot;band&quot; style=&quot;background:#ED1B24&quot;&gt;&lt;/div&gt;&lt;div class=&quot;lab&quot;&gt;CHEST&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;tile mega&quot; data-i=&quot;5&quot;&gt;&lt;div class=&quot;lab&quot;&gt;&amp;#127974;&lt;/div&gt;&lt;div class=&quot;sub&quot;&gt;GRAND CASINO&lt;/div&gt;&lt;/div&gt;
+    &lt;div id=&quot;token&quot;&gt;
+      &lt;svg viewBox=&quot;0 0 40 40&quot; width=&quot;34&quot; height=&quot;34&quot;&gt;&lt;ellipse cx=&quot;20&quot; cy=&quot;35&quot; rx=&quot;12&quot; ry=&quot;3&quot; fill=&quot;rgba(0,0,0,.3)&quot;/&gt;&lt;rect x=&quot;9&quot; y=&quot;6&quot; width=&quot;22&quot; height=&quot;18&quot; rx=&quot;3&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;5&quot; y=&quot;22&quot; width=&quot;30&quot; height=&quot;6&quot; rx=&quot;3&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;9&quot; y=&quot;18&quot; width=&quot;22&quot; height=&quot;5&quot; fill=&quot;#C0142B&quot;/&gt;&lt;/svg&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;dicewrap&quot;&gt;
+    &lt;div id=&quot;dicerow&quot;&gt;
+      &lt;div class=&quot;die&quot; id=&quot;d1&quot;&gt;&lt;span class=&quot;pip p1&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pip p2&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pip p3&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pip p4&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pip p5&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pip p6&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pip p7&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&quot;die&quot; id=&quot;d2&quot;&gt;&lt;span class=&quot;pip p1&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pip p2&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pip p3&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pip p4&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pip p5&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pip p6&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pip p7&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;prompt&quot;&gt;&lt;div class=&quot;cta&quot;&gt;TAP TO ROLL&lt;/div&gt;&lt;div id=&quot;hand&quot;&gt;&amp;#128070;&lt;/div&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;cashpop&quot;&gt;&lt;/div&gt;
+  &lt;button id=&quot;minicta&quot;&gt;GET THE APP&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&quot;endcard&quot;&gt;
+  &lt;svg class=&quot;man float&quot; viewBox=&quot;0 0 200 240&quot;&gt;&lt;ellipse cx=&quot;100&quot; cy=&quot;232&quot; rx=&quot;54&quot; ry=&quot;7&quot; fill=&quot;rgba(0,0,0,.25)&quot;/&gt;&lt;rect x=&quot;55&quot; y=&quot;8&quot; width=&quot;90&quot; height=&quot;56&quot; rx=&quot;7&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;34&quot; y=&quot;60&quot; width=&quot;132&quot; height=&quot;15&quot; rx=&quot;7&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;55&quot; y=&quot;49&quot; width=&quot;90&quot; height=&quot;12&quot; fill=&quot;#3a332e&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;120&quot; r=&quot;52&quot; fill=&quot;#F1C9A0&quot;/&gt;&lt;circle cx=&quot;49&quot; cy=&quot;122&quot; r=&quot;10&quot; fill=&quot;#F1C9A0&quot;/&gt;&lt;circle cx=&quot;151&quot; cy=&quot;122&quot; r=&quot;10&quot; fill=&quot;#F1C9A0&quot;/&gt;&lt;rect x=&quot;72&quot; y=&quot;98&quot; width=&quot;18&quot; height=&quot;5&quot; rx=&quot;2&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;112&quot; y=&quot;98&quot; width=&quot;18&quot; height=&quot;5&quot; rx=&quot;2&quot; fill=&quot;#171310&quot;/&gt;&lt;circle cx=&quot;81&quot; cy=&quot;112&quot; r=&quot;4&quot; fill=&quot;#171310&quot;/&gt;&lt;circle cx=&quot;119&quot; cy=&quot;112&quot; r=&quot;4&quot; fill=&quot;#171310&quot;/&gt;&lt;circle cx=&quot;119&quot; cy=&quot;112&quot; r=&quot;15&quot; fill=&quot;none&quot; stroke=&quot;#C79412&quot; stroke-width=&quot;3&quot;/&gt;&lt;line x1=&quot;119&quot; y1=&quot;127&quot; x2=&quot;130&quot; y2=&quot;152&quot; stroke=&quot;#C79412&quot; stroke-width=&quot;2&quot;/&gt;&lt;circle cx=&quot;72&quot; cy=&quot;134&quot; r=&quot;8&quot; fill=&quot;#EC9E93&quot; opacity=&quot;.55&quot;/&gt;&lt;circle cx=&quot;128&quot; cy=&quot;134&quot; r=&quot;8&quot; fill=&quot;#EC9E93&quot; opacity=&quot;.55&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;130&quot; r=&quot;7&quot; fill=&quot;#E3AE85&quot;/&gt;&lt;path d=&quot;M68 142 Q100 132 132 142 Q116 160 100 151 Q84 160 68 142Z&quot; fill=&quot;#fff&quot;/&gt;&lt;path d=&quot;M85 180 L100 189 L85 197 Z&quot; fill=&quot;#C0142B&quot;/&gt;&lt;path d=&quot;M115 180 L100 189 L115 197 Z&quot; fill=&quot;#C0142B&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;189&quot; r=&quot;4.5&quot; fill=&quot;#9B0C22&quot;/&gt;&lt;path d=&quot;M42 240 Q46 202 100 200 Q154 202 158 240 Z&quot; fill=&quot;#171310&quot;/&gt;&lt;path d=&quot;M100 200 L89 240 L111 240 Z&quot; fill=&quot;#fff&quot;/&gt;&lt;/svg&gt;
+  &lt;div class=&quot;col&quot;&gt;
+    &lt;div id=&quot;eh&quot;&gt;You&amp;rsquo;re on a roll!&lt;/div&gt;
+    &lt;div id=&quot;es&quot;&gt;Roll, build your board &amp;amp; heist your friends in MONOPOLY GO!&lt;/div&gt;
+    &lt;button id=&quot;cta&quot; class=&quot;pulse&quot;&gt;PLAY FREE&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function(){
+&quot;use strict&quot;;
+var STORE={iOS:&quot;https://apps.apple.com/app/monopoly-go/id1621328561&quot;,Android:&quot;https://play.google.com/store/apps/details?id=com.scopely.monopolygo&quot;};
+var IS_IOS=/iP(hone|od|ad)/.test(navigator.userAgent);
+var started=false,rolling=false,done=false,AC=null,tmr=null,left=25,rollsN=27;
+var FACE={1:[&quot;p1&quot;],2:[&quot;p2&quot;,&quot;p3&quot;],3:[&quot;p2&quot;,&quot;p1&quot;,&quot;p3&quot;],4:[&quot;p2&quot;,&quot;p3&quot;,&quot;p4&quot;,&quot;p5&quot;],5:[&quot;p2&quot;,&quot;p3&quot;,&quot;p4&quot;,&quot;p5&quot;,&quot;p1&quot;],6:[&quot;p2&quot;,&quot;p3&quot;,&quot;p4&quot;,&quot;p5&quot;,&quot;p6&quot;,&quot;p7&quot;]};
+
+function openStore(){var u=IS_IOS?STORE.iOS:STORE.Android;if(window.mraid&amp;&amp;mraid.open){mraid.open(u);}}
+function setFace(die,n){var ps=die.getElementsByTagName(&quot;span&quot;),i;for(i=0;i&lt;ps.length;i++)ps[i].className=ps[i].className.replace(&quot; on&quot;,&quot;&quot;);var on=FACE[n],j;for(j=0;j&lt;on.length;j++){var e=die.getElementsByClassName(on[j])[0];if(e)e.className+=&quot; on&quot;;}}
+
+function tone(freq,t0,dur,vol,type){try{if(!AC)return;var o=AC.createOscillator(),g=AC.createGain();o.type=type||&quot;sine&quot;;o.frequency.value=freq;g.gain.setValueAtTime(0.0001,t0);g.gain.exponentialRampToValueAtTime(vol||0.2,t0+0.015);g.gain.exponentialRampToValueAtTime(0.0001,t0+dur);o.connect(g);g.connect(AC.destination);o.start(t0);o.stop(t0+dur+0.02);}catch(e){}}
+function sfxRoll(){try{var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;if(!AC)AC=new Ctx();if(AC.state===&quot;suspended&quot;&amp;&amp;AC.resume)AC.resume();var t=AC.currentTime,i;for(i=0;i&lt;7;i++)tone(180+Math.random()*120,t+i*0.07,0.05,0.12,&quot;square&quot;);}catch(e){}}
+function sfxCoin(t0){var f=[784,988,1175,1319],i;for(i=0;i&lt;f.length;i++)tone(f[i],t0+i*0.06,0.18,0.16,&quot;triangle&quot;);}
+function sfxWin(){try{var t=AC?AC.currentTime:0,n=[523,659,784,1047],i;for(i=0;i&lt;n.length;i++)tone(n[i],t+i*0.1,0.3,0.18,&quot;sine&quot;);}catch(e){}}
+
+function coinBurst(x,y,n){
+  if(window.matchMedia&amp;&amp;matchMedia(&quot;(prefers-reduced-motion: reduce)&quot;).matches)return;
+  var i;for(i=0;i&lt;n;i++){(function(){
+    var c=document.createElement(&quot;div&quot;);c.className=&quot;coin&quot;;
+    c.innerHTML=&#x27;&lt;svg viewBox=&quot;0 0 30 30&quot; width=&quot;26&quot; height=&quot;26&quot;&gt;&lt;circle cx=&quot;15&quot; cy=&quot;15&quot; r=&quot;14&quot; fill=&quot;#C79412&quot;/&gt;&lt;circle cx=&quot;15&quot; cy=&quot;15&quot; r=&quot;11&quot; fill=&quot;#FFD54A&quot;/&gt;&lt;text x=&quot;15&quot; y=&quot;20&quot; font-size=&quot;14&quot; font-weight=&quot;900&quot; text-anchor=&quot;middle&quot; fill=&quot;#B47C0A&quot; font-family=&quot;Georgia,serif&quot;&gt;$&lt;/text&gt;&lt;/svg&gt;&#x27;;
+    c.style.left=x+&quot;px&quot;;c.style.top=y+&quot;px&quot;;
+    document.body.appendChild(c);
+    var ang=(-90+(Math.random()*120-60))*Math.PI/180,sp=140+Math.random()*180;
+    var vx=Math.cos(ang)*sp,vy=Math.sin(ang)*sp,t0=null,dur=850+Math.random()*300;
+    function step(ts){if(!t0)t0=ts;var p=(ts-t0)/dur;if(p&gt;=1){if(c.parentNode)c.parentNode.removeChild(c);return;}
+      var px=vx*p,py=vy*p+ 420*p*p;
+      c.style.opacity=p&gt;0.75?String(1-(p-0.75)/0.25):&quot;1&quot;;
+      c.style.webkitTransform=c.style.transform=&quot;translate(&quot;+px+&quot;px,&quot;+py+&quot;px) rotate(&quot;+(p*520)+&quot;deg)&quot;;
+      requestAnimationFrame(step);}
+    requestAnimationFrame(step);
+  })();}
+}
+
+function tokenTo(i,cb){
+  var tiles=document.querySelectorAll(&quot;.tile&quot;),t=tiles[i],tk=document.getElementById(&quot;token&quot;);
+  var tr=document.getElementById(&quot;track&quot;).getBoundingClientRect(),r=t.getBoundingClientRect();
+  tk.style.left=(r.left-tr.left+r.width/2-17)+&quot;px&quot;;
+  tk.className=&quot;hop&quot;;
+  t.className=t.className.indexOf(&quot;mega&quot;)&gt;=0?&quot;tile mega lit&quot;:&quot;tile lit&quot;;
+  try{tone(430+i*70,AC?AC.currentTime:0,0.09,0.14,&quot;sine&quot;);}catch(e){}
+  setTimeout(function(){tk.className=&quot;&quot;;if(cb)cb();},250);
+}
+
+function hopSeq(steps){
+  var i=0;
+  function next(){
+    i++;
+    if(i&gt;steps){finish();return;}
+    tokenTo(i,next);
+  }
+  next();
+}
+
+function finish(){
+  var mega=document.querySelectorAll(&quot;.tile&quot;)[5],r=mega.getBoundingClientRect();
+  var cp=document.getElementById(&quot;cashpop&quot;);cp.innerHTML=&quot;+$2,500,000&quot;;cp.className=&quot;show&quot;;
+  document.getElementById(&quot;rolls&quot;).innerHTML=(rollsN-1);
+  sfxCoin(AC?AC.currentTime:0);sfxWin();
+  coinBurst(r.left+r.width/2,r.top+r.height/2,20);
+  setTimeout(function(){coinBurst(window.innerWidth/2,window.innerHeight*0.42,14);},260);
+  setTimeout(showEnd,1250);
+}
+
+function doRoll(){
+  if(!started||rolling||done)return;rolling=true;done=true;
+  document.getElementById(&quot;prompt&quot;).className=&quot;hide&quot;;
+  var d1=document.getElementById(&quot;d1&quot;),d2=document.getElementById(&quot;d2&quot;);
+  d1.className=&quot;die roll&quot;;d2.className=&quot;die roll&quot;;sfxRoll();
+  var flick=setInterval(function(){setFace(d1,1+((Math.random()*6)|0));setFace(d2,1+((Math.random()*6)|0));},90);
+  setTimeout(function(){
+    clearInterval(flick);
+    setFace(d1,3);setFace(d2,2); /* 5 -&gt; lands GRAND CASINO (tile 5) */
+    d1.className=&quot;die land&quot;;d2.className=&quot;die land&quot;;
+    try{tone(150,AC?AC.currentTime:0,0.14,0.2,&quot;square&quot;);}catch(e){}
+    setTimeout(function(){hopSeq(5);},360);
+  },950);
+}
+
+function showEnd(){document.getElementById(&quot;endcard&quot;).className=&quot;show&quot;;stopTimer();}
+
+function tick(){left--;var m=Math.floor(left/60),s=left%60;document.getElementById(&quot;tval&quot;).innerHTML=m+&quot;:&quot;+(s&lt;10?&quot;0&quot;:&quot;&quot;)+s;if(left&lt;=0){stopTimer();if(!done){done=true;document.getElementById(&quot;prompt&quot;).className=&quot;hide&quot;;showEnd();}}}
+function startTimer(){if(tmr)return;tmr=setInterval(tick,1000);}
+function stopTimer(){if(tmr){clearInterval(tmr);tmr=null;}}
+
+function bind(){
+  document.getElementById(&quot;dicewrap&quot;).addEventListener(&quot;click&quot;,doRoll,false);
+  document.getElementById(&quot;cta&quot;).addEventListener(&quot;click&quot;,openStore,false);
+  document.getElementById(&quot;minicta&quot;).addEventListener(&quot;click&quot;,openStore,false);
+  setFace(document.getElementById(&quot;d1&quot;),2);setFace(document.getElementById(&quot;d2&quot;),5);
+  tokenTo(0,null);
+}
+function showAd(){started=true;document.body.className=&quot;&quot;;startTimer();}
+function resumeAd(){document.body.className=&quot;&quot;;if(AC&amp;&amp;AC.resume)AC.resume();if(!done)startTimer();}
+function pauseAd(){document.body.className=&quot;paused&quot;;if(AC&amp;&amp;AC.suspend)AC.suspend();stopTimer();}
+function onView(v){if(v){started?resumeAd():showAd();}else{pauseAd();}}
+function onReady(){mraid.addEventListener(&quot;viewableChange&quot;,onView);if(mraid.isViewable())showAd();}
+function start(){bind();if(window.mraid){if(mraid.getState()===&quot;loading&quot;){mraid.addEventListener(&quot;ready&quot;,onReady);}else{onReady();}}}
+document.addEventListener(&quot;visibilitychange&quot;,function(){if(document.hidden){pauseAd();}else if(!window.mraid||mraid.isViewable()){if(started)resumeAd();}},false);
+window.addEventListener(&quot;resize&quot;,function(){if(started&amp;&amp;!done)tokenTo(0,null);},false);
+start();
+})();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"></iframe></div><button class="replay" onclick="var f=document.getElementById('pf0');f.srcdoc=f.srcdoc;">&#8635;&nbsp;REPLAY</button></div><div class="meta"><div class="name">Satisfying Dice Roll<span class="live">LIVE</span></div><div class="fmt hot">CORE LOOP &middot; 1 TAP</div><div class="hook">Tap to roll &mdash; the dice tumble, your token hops the board tile-by-tile and lands on the GRAND CASINO for +$2.5M in a burst of coins. The core MGO loop, rebuilt with real weight, squash-and-stretch and juice.</div><div class="thesis"><b>Tests:</b> the head-to-head against the standard &ldquo;dice slider&rdquo; &mdash; same mechanic, premium execution. The quality baseline everything else is measured against.</div><div class="file">MonopolyGO_DiceRoll_1T.html</div></div></div><div class="card"><div class="phonewrap"><div class="phone"><iframe id="pf1" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;&gt;
+&lt;title&gt;MONOPOLY GO Playable — Bank Heist&lt;/title&gt;
+&lt;style&gt;
+html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);font-family:-apple-system,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,sans-serif}
+body{background:#3b2352;background:-webkit-radial-gradient(50% 26%,#5a3579 0%,#2e1a44 72%,#1e1130 100%);background:radial-gradient(circle at 50% 26%,#5a3579 0%,#2e1a44 72%,#1e1130 100%)}
+#stage{position:absolute;top:0;left:0;right:0;bottom:0;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;touch-action:manipulation}
+#stage.shake{-webkit-animation:shake .35s ease;animation:shake .35s ease}
+@-webkit-keyframes shake{0%,100%{-webkit-transform:translate(0,0)}20%{-webkit-transform:translate(-7px,3px)}40%{-webkit-transform:translate(6px,-4px)}60%{-webkit-transform:translate(-5px,2px)}80%{-webkit-transform:translate(4px,-2px)}}
+@keyframes shake{0%,100%{transform:translate(0,0)}20%{transform:translate(-7px,3px)}40%{transform:translate(6px,-4px)}60%{transform:translate(-5px,2px)}80%{transform:translate(4px,-2px)}}
+#banner{margin-top:5%;text-align:center}
+.logo{display:inline-block;background:#ED1B24;color:#fff;font-weight:900;letter-spacing:1px;font-size:24px;padding:6px 16px;border-radius:10px;border:3px solid #fff;box-shadow:0 4px 0 #9B0C16,0 6px 14px rgba(0,0,0,.35);text-shadow:0 2px 0 #9B0C16;-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}
+.logo small{font-size:14px;vertical-align:3px;letter-spacing:2px}
+#tag{color:#FFD54A;font-weight:900;font-size:15px;letter-spacing:3px;margin-top:12px}
+/* rival card */
+#rival{width:86%;max-width:480px;margin-top:8px;background:rgba(255,255,255,.08);border:2px solid rgba(255,255,255,.16);border-radius:16px;padding:10px 14px;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center}
+#rival .av{width:40px;height:40px;border-radius:50%;background:#F19A3E;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;font-size:22px;border:2px solid #fff}
+#rival .who{margin-left:12px;color:#fff;text-align:left}
+#rival .who b{font-size:16px;font-weight:900}
+#rival .who span{display:block;font-size:11px;color:#cbb8e0;font-weight:700}
+#rival .bd{margin-left:auto;color:#FFD54A;font-weight:900;font-size:13px;text-align:right}
+/* vault */
+#vaultwrap{-webkit-flex:1;flex:1;width:100%;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;min-height:0;position:relative}
+#vault{width:190px;height:190px;position:relative}
+#vault svg{width:100%;height:100%;display:block;-webkit-filter:drop-shadow(0 12px 18px rgba(0,0,0,.5));filter:drop-shadow(0 12px 18px rgba(0,0,0,.5))}
+#dial{-webkit-transform-origin:center;transform-origin:center}
+#crack{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;pointer-events:none}
+#crack.show{opacity:1}
+#vault.hit{-webkit-animation:vhit .3s ease;animation:vhit .3s ease}
+@-webkit-keyframes vhit{0%,100%{-webkit-transform:scale(1)}40%{-webkit-transform:scale(1.06,.94)}70%{-webkit-transform:scale(.97,1.03)}}
+@keyframes vhit{0%,100%{transform:scale(1)}40%{transform:scale(1.06,.94)}70%{transform:scale(.97,1.03)}}
+#vault.open{opacity:0;-webkit-transform:scale(1.3);transform:scale(1.3);-webkit-transition:.4s ease;transition:.4s ease}
+#flash{position:absolute;width:260px;height:260px;border-radius:50%;background:-webkit-radial-gradient(#fff,rgba(255,213,74,.5),rgba(255,213,74,0));background:radial-gradient(#fff,rgba(255,213,74,.5),rgba(255,213,74,0));opacity:0;pointer-events:none}
+#flash.go{-webkit-animation:flash .5s ease-out;animation:flash .5s ease-out}
+@-webkit-keyframes flash{0%{opacity:0;-webkit-transform:scale(.3)}30%{opacity:1}100%{opacity:0;-webkit-transform:scale(1.3)}}
+@keyframes flash{0%{opacity:0;transform:scale(.3)}30%{opacity:1}100%{opacity:0;transform:scale(1.3)}}
+/* hammer + prompt */
+#hammer{position:absolute;right:20%;top:20%;font-size:46px;-webkit-transform-origin:80% 80%;transform-origin:80% 80%;-webkit-transform:rotate(20deg);transform:rotate(20deg);pointer-events:none}
+#hammer.swing{-webkit-animation:swing .3s ease;animation:swing .3s ease}
+@-webkit-keyframes swing{0%{-webkit-transform:rotate(20deg)}45%{-webkit-transform:rotate(-52deg)}100%{-webkit-transform:rotate(20deg)}}
+@keyframes swing{0%{transform:rotate(20deg)}45%{transform:rotate(-52deg)}100%{transform:rotate(20deg)}}
+#prompt{position:absolute;bottom:16%;text-align:center;color:#fff;width:100%}
+#prompt .cta{font-size:20px;font-weight:900;letter-spacing:1px;text-shadow:0 2px 4px rgba(0,0,0,.5)}
+#prompt .cta em{color:#FFD54A;font-style:normal}
+#taps{margin-top:6px}
+.tapdot{display:inline-block;width:12px;height:12px;border-radius:50%;background:rgba(255,255,255,.3);margin:0 5px;border:2px solid rgba(255,255,255,.5)}
+.tapdot.on{background:#FFD54A;border-color:#fff}
+#prompt.hide{opacity:0;-webkit-transition:opacity .25s;transition:opacity .25s;pointer-events:none}
+#cashpop{position:absolute;top:34%;left:50%;-webkit-transform:translateX(-50%) scale(.4);transform:translateX(-50%) scale(.4);opacity:0;color:#fff;font-weight:900;font-size:30px;text-shadow:0 3px 0 #6a3a1a,0 0 22px rgba(255,213,74,.9);z-index:20;pointer-events:none;white-space:nowrap}
+#cashpop.show{-webkit-animation:cashin .5s cubic-bezier(.34,1.56,.64,1) forwards;animation:cashin .5s cubic-bezier(.34,1.56,.64,1) forwards}
+@-webkit-keyframes cashin{0%{opacity:0;-webkit-transform:translateX(-50%) scale(.4)}60%{opacity:1;-webkit-transform:translateX(-50%) scale(1.18)}100%{opacity:1;-webkit-transform:translateX(-50%) scale(1)}}
+@keyframes cashin{0%{opacity:0;transform:translateX(-50%) scale(.4)}60%{opacity:1;transform:translateX(-50%) scale(1.18)}100%{opacity:1;transform:translateX(-50%) scale(1)}}
+.coin{position:absolute;width:26px;height:26px;z-index:15;pointer-events:none;will-change:transform,opacity}
+/* bottom cash bar */
+#cashbar{width:86%;max-width:480px;margin-bottom:10px;background:rgba(0,0,0,.3);border:2px solid rgba(255,255,255,.18);border-radius:16px;padding:9px 14px;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;color:#fff;z-index:8}
+#cashbar .lbl{font-size:11px;font-weight:800;color:#cbb8e0;letter-spacing:1px}
+#cashbar .amt{margin-left:auto;font-size:19px;font-weight:900;color:#FFD54A}
+#minicta{position:absolute;left:50%;bottom:3.5%;-webkit-transform:translateX(-50%);transform:translateX(-50%);padding:11px 24px;border:0;border-radius:14px;background:#FFD54A;box-shadow:0 5px 0 #C79412;color:#7a5600;font-size:14px;font-weight:900;letter-spacing:.6px;cursor:pointer;z-index:9;opacity:0;visibility:hidden}
+#minicta.show{opacity:1;visibility:visible;-webkit-transition:.3s;transition:.3s}
+/* endcard */
+#endcard{position:absolute;top:0;left:0;right:0;bottom:0;background:#ED1B24;background:-webkit-radial-gradient(50% 24%,#ff3a43,#c50f18);background:radial-gradient(circle at 50% 24%,#ff3a43,#c50f18);display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;opacity:0;visibility:hidden;-webkit-transition:opacity .4s ease;transition:opacity .4s ease;z-index:30}
+#endcard.show{opacity:1;visibility:visible}
+#endcard .man{width:150px;height:auto}
+#eh{color:#fff;font-size:25px;font-weight:900;margin:8px 8% 4px;text-align:center;text-shadow:0 2px 0 #9B0C16}
+#es{color:#FFE08A;font-size:15px;font-weight:700;margin:0 12% 20px;text-align:center;line-height:1.4}
+#cta{padding:16px 40px;border:0;border-radius:16px;background:#FFD54A;box-shadow:0 6px 0 #C79412;color:#7a5600;font-size:18px;font-weight:900;letter-spacing:1px;cursor:pointer}
+.pulse{-webkit-animation:pulse 1.3s ease-in-out infinite;animation:pulse 1.3s ease-in-out infinite}
+@-webkit-keyframes pulse{0%,100%{-webkit-transform:scale(1)}50%{-webkit-transform:scale(1.06)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+.float{-webkit-animation:float 2.4s ease-in-out infinite;animation:float 2.4s ease-in-out infinite}
+@-webkit-keyframes float{0%,100%{-webkit-transform:translateY(0) rotate(-1deg)}50%{-webkit-transform:translateY(-10px) rotate(1deg)}}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-10px) rotate(1deg)}}
+.hb{-webkit-animation:hb 1s ease-in-out infinite;animation:hb 1s ease-in-out infinite}
+@-webkit-keyframes hb{0%,100%{-webkit-transform:rotate(20deg) scale(1)}50%{-webkit-transform:rotate(12deg) scale(1.08)}}
+@keyframes hb{0%,100%{transform:rotate(20deg) scale(1)}50%{transform:rotate(12deg) scale(1.08)}}
+body.paused *{-webkit-animation-play-state:paused !important;animation-play-state:paused !important}
+@media (prefers-reduced-motion:reduce){.float,.pulse,.hb{-webkit-animation:none;animation:none}}
+@media (orientation:landscape){
+  #banner{margin-top:2%}.logo{font-size:19px}#tag{margin-top:4px}
+  #vault{width:140px;height:140px}#prompt{bottom:8%}
+  #endcard{-webkit-flex-direction:row;flex-direction:row}#endcard .man{width:118px;margin-right:4%}
+  #endcard .col{max-width:52%;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center}#eh{font-size:21px}
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body class=&quot;paused&quot;&gt;&lt;script&gt;window.mraid={_l:{},getState:function(){return &quot;default&quot;},isViewable:function(){return true},addEventListener:function(e,f){this._l[e]=f},removeEventListener:function(){},open:function(u){window.open(u,&quot;_blank&quot;)}};&lt;/script&gt;
+&lt;div id=&quot;stage&quot;&gt;
+  &lt;div id=&quot;banner&quot;&gt;&lt;span class=&quot;logo&quot;&gt;MONOPOLY &lt;small&gt;GO!&lt;/small&gt;&lt;/span&gt;&lt;div id=&quot;tag&quot;&gt;&amp;#128481; BANK HEIST&lt;/div&gt;&lt;/div&gt;
+  &lt;div id=&quot;rival&quot;&gt;
+    &lt;div class=&quot;av&quot;&gt;&amp;#128105;&lt;/div&gt;
+    &lt;div class=&quot;who&quot;&gt;&lt;b&gt;Amy&amp;rsquo;s Bank&lt;/b&gt;&lt;span&gt;Loaded &amp;amp; unshielded&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;bd&quot;&gt;&amp;#128176; $1.8M&lt;br&gt;&lt;span style=&quot;font-size:10px;color:#cbb8e0&quot;&gt;up for grabs&lt;/span&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;vaultwrap&quot;&gt;
+    &lt;div id=&quot;flash&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;vault&quot;&gt;
+      &lt;svg viewBox=&quot;0 0 200 200&quot;&gt;&lt;rect x=&quot;14&quot; y=&quot;14&quot; width=&quot;172&quot; height=&quot;172&quot; rx=&quot;18&quot; fill=&quot;#243B2E&quot;/&gt;&lt;rect x=&quot;14&quot; y=&quot;14&quot; width=&quot;172&quot; height=&quot;172&quot; rx=&quot;18&quot; fill=&quot;none&quot; stroke=&quot;#C79412&quot; stroke-width=&quot;7&quot;/&gt;&lt;rect x=&quot;30&quot; y=&quot;30&quot; width=&quot;140&quot; height=&quot;140&quot; rx=&quot;12&quot; fill=&quot;#1B2C22&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;100&quot; r=&quot;46&quot; fill=&quot;#2E4A3A&quot; stroke=&quot;#C79412&quot; stroke-width=&quot;5&quot;/&gt;&lt;g id=&quot;dial&quot;&gt;&lt;circle cx=&quot;100&quot; cy=&quot;100&quot; r=&quot;30&quot; fill=&quot;#3A5C48&quot;/&gt;&lt;rect x=&quot;96&quot; y=&quot;60&quot; width=&quot;8&quot; height=&quot;80&quot; rx=&quot;4&quot; fill=&quot;#C79412&quot;/&gt;&lt;rect x=&quot;60&quot; y=&quot;96&quot; width=&quot;80&quot; height=&quot;8&quot; rx=&quot;4&quot; fill=&quot;#C79412&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;100&quot; r=&quot;9&quot; fill=&quot;#FFD54A&quot;/&gt;&lt;/g&gt;&lt;rect x=&quot;150&quot; y=&quot;86&quot; width=&quot;20&quot; height=&quot;28&quot; rx=&quot;6&quot; fill=&quot;#C79412&quot;/&gt;&lt;/svg&gt;
+      &lt;svg id=&quot;crack&quot; viewBox=&quot;0 0 200 200&quot;&gt;&lt;path d=&quot;M100 54 L88 92 L104 104 L84 140&quot; fill=&quot;none&quot; stroke=&quot;#fff&quot; stroke-width=&quot;4&quot; stroke-linejoin=&quot;round&quot;/&gt;&lt;path d=&quot;M104 104 L134 118 M88 92 L60 100&quot; fill=&quot;none&quot; stroke=&quot;#fff&quot; stroke-width=&quot;3&quot;/&gt;&lt;/svg&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;hammer&quot;&gt;&amp;#128296;&lt;/div&gt;
+    &lt;div id=&quot;cashpop&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;prompt&quot;&gt;&lt;div class=&quot;cta&quot;&gt;TAP TO &lt;em&gt;CRACK IT&lt;/em&gt;&lt;/div&gt;&lt;div id=&quot;taps&quot;&gt;&lt;span class=&quot;tapdot&quot; id=&quot;dot0&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tapdot&quot; id=&quot;dot1&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;cashbar&quot;&gt;&lt;span class=&quot;lbl&quot;&gt;YOUR CASH&lt;/span&gt;&lt;span class=&quot;amt&quot; id=&quot;amt&quot;&gt;$12,400,000&lt;/span&gt;&lt;/div&gt;
+  &lt;button id=&quot;minicta&quot;&gt;GET THE APP&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&quot;endcard&quot;&gt;
+  &lt;svg class=&quot;man float&quot; viewBox=&quot;0 0 200 240&quot;&gt;&lt;ellipse cx=&quot;100&quot; cy=&quot;232&quot; rx=&quot;54&quot; ry=&quot;7&quot; fill=&quot;rgba(0,0,0,.25)&quot;/&gt;&lt;rect x=&quot;55&quot; y=&quot;8&quot; width=&quot;90&quot; height=&quot;56&quot; rx=&quot;7&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;34&quot; y=&quot;60&quot; width=&quot;132&quot; height=&quot;15&quot; rx=&quot;7&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;55&quot; y=&quot;49&quot; width=&quot;90&quot; height=&quot;12&quot; fill=&quot;#3a332e&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;120&quot; r=&quot;52&quot; fill=&quot;#F1C9A0&quot;/&gt;&lt;circle cx=&quot;49&quot; cy=&quot;122&quot; r=&quot;10&quot; fill=&quot;#F1C9A0&quot;/&gt;&lt;circle cx=&quot;151&quot; cy=&quot;122&quot; r=&quot;10&quot; fill=&quot;#F1C9A0&quot;/&gt;&lt;rect x=&quot;72&quot; y=&quot;98&quot; width=&quot;18&quot; height=&quot;5&quot; rx=&quot;2&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;112&quot; y=&quot;98&quot; width=&quot;18&quot; height=&quot;5&quot; rx=&quot;2&quot; fill=&quot;#171310&quot;/&gt;&lt;circle cx=&quot;81&quot; cy=&quot;112&quot; r=&quot;4&quot; fill=&quot;#171310&quot;/&gt;&lt;circle cx=&quot;119&quot; cy=&quot;112&quot; r=&quot;4&quot; fill=&quot;#171310&quot;/&gt;&lt;circle cx=&quot;119&quot; cy=&quot;112&quot; r=&quot;15&quot; fill=&quot;none&quot; stroke=&quot;#C79412&quot; stroke-width=&quot;3&quot;/&gt;&lt;line x1=&quot;119&quot; y1=&quot;127&quot; x2=&quot;130&quot; y2=&quot;152&quot; stroke=&quot;#C79412&quot; stroke-width=&quot;2&quot;/&gt;&lt;circle cx=&quot;72&quot; cy=&quot;134&quot; r=&quot;8&quot; fill=&quot;#EC9E93&quot; opacity=&quot;.55&quot;/&gt;&lt;circle cx=&quot;128&quot; cy=&quot;134&quot; r=&quot;8&quot; fill=&quot;#EC9E93&quot; opacity=&quot;.55&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;130&quot; r=&quot;7&quot; fill=&quot;#E3AE85&quot;/&gt;&lt;path d=&quot;M68 142 Q100 132 132 142 Q116 160 100 151 Q84 160 68 142Z&quot; fill=&quot;#fff&quot;/&gt;&lt;path d=&quot;M85 180 L100 189 L85 197 Z&quot; fill=&quot;#C0142B&quot;/&gt;&lt;path d=&quot;M115 180 L100 189 L115 197 Z&quot; fill=&quot;#C0142B&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;189&quot; r=&quot;4.5&quot; fill=&quot;#9B0C22&quot;/&gt;&lt;path d=&quot;M42 240 Q46 202 100 200 Q154 202 158 240 Z&quot; fill=&quot;#171310&quot;/&gt;&lt;path d=&quot;M100 200 L89 240 L111 240 Z&quot; fill=&quot;#fff&quot;/&gt;&lt;/svg&gt;
+  &lt;div class=&quot;col&quot;&gt;
+    &lt;div id=&quot;eh&quot;&gt;Heist complete! &amp;#128176;&lt;/div&gt;
+    &lt;div id=&quot;es&quot;&gt;Raid your friends&amp;rsquo; banks &amp;amp; build your empire in MONOPOLY GO!&lt;/div&gt;
+    &lt;button id=&quot;cta&quot; class=&quot;pulse&quot;&gt;PLAY FREE&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function(){
+&quot;use strict&quot;;
+var STORE={iOS:&quot;https://apps.apple.com/app/monopoly-go/id1621328561&quot;,Android:&quot;https://play.google.com/store/apps/details?id=com.scopely.monopolygo&quot;};
+var IS_IOS=/iP(hone|od|ad)/.test(navigator.userAgent);
+var started=false,taps=0,busy=false,done=false,AC=null,tmr=null,left=25;
+function openStore(){var u=IS_IOS?STORE.iOS:STORE.Android;if(window.mraid&amp;&amp;mraid.open){mraid.open(u);}}
+function tone(freq,t0,dur,vol,type){try{if(!AC)return;var o=AC.createOscillator(),g=AC.createGain();o.type=type||&quot;sine&quot;;o.frequency.value=freq;g.gain.setValueAtTime(0.0001,t0);g.gain.exponentialRampToValueAtTime(vol||0.2,t0+0.015);g.gain.exponentialRampToValueAtTime(0.0001,t0+dur);o.connect(g);g.connect(AC.destination);o.start(t0);o.stop(t0+dur+0.02);}catch(e){}}
+function ensureAC(){try{var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;if(!AC)AC=new Ctx();if(AC.state===&quot;suspended&quot;&amp;&amp;AC.resume)AC.resume();}catch(e){}}
+function sfxHit(){ensureAC();var t=AC?AC.currentTime:0;tone(90,t,0.16,0.28,&quot;square&quot;);tone(220,t,0.08,0.18,&quot;square&quot;);}
+function sfxCoin(t0){var f=[784,988,1175,1319,1568],i;for(i=0;i&lt;f.length;i++)tone(f[i],t0+i*0.05,0.2,0.15,&quot;triangle&quot;);}
+function sfxWin(){var t=AC?AC.currentTime:0,n=[523,659,784,1047],i;for(i=0;i&lt;n.length;i++)tone(n[i],t+i*0.09,0.3,0.18,&quot;sine&quot;);}
+function coinBurst(x,y,n,dir){
+  if(window.matchMedia&amp;&amp;matchMedia(&quot;(prefers-reduced-motion: reduce)&quot;).matches)return;
+  var i;for(i=0;i&lt;n;i++){(function(){
+    var c=document.createElement(&quot;div&quot;);c.className=&quot;coin&quot;;
+    c.innerHTML=&#x27;&lt;svg viewBox=&quot;0 0 30 30&quot; width=&quot;26&quot; height=&quot;26&quot;&gt;&lt;circle cx=&quot;15&quot; cy=&quot;15&quot; r=&quot;14&quot; fill=&quot;#C79412&quot;/&gt;&lt;circle cx=&quot;15&quot; cy=&quot;15&quot; r=&quot;11&quot; fill=&quot;#FFD54A&quot;/&gt;&lt;text x=&quot;15&quot; y=&quot;20&quot; font-size=&quot;14&quot; font-weight=&quot;900&quot; text-anchor=&quot;middle&quot; fill=&quot;#B47C0A&quot; font-family=&quot;Georgia,serif&quot;&gt;$&lt;/text&gt;&lt;/svg&gt;&#x27;;
+    c.style.left=x+&quot;px&quot;;c.style.top=y+&quot;px&quot;;document.body.appendChild(c);
+    var ang=(dir||-90)+(Math.random()*140-70),sp=150+Math.random()*200,rad=ang*Math.PI/180;
+    var vx=Math.cos(rad)*sp,vy=Math.sin(rad)*sp,t0=null,dur=800+Math.random()*350;
+    function step(ts){if(!t0)t0=ts;var p=(ts-t0)/dur;if(p&gt;=1){if(c.parentNode)c.parentNode.removeChild(c);return;}
+      c.style.opacity=p&gt;0.75?String(1-(p-0.75)/0.25):&quot;1&quot;;
+      c.style.webkitTransform=c.style.transform=&quot;translate(&quot;+(vx*p)+&quot;px,&quot;+(vy*p+430*p*p)+&quot;px) rotate(&quot;+(p*540)+&quot;deg)&quot;;
+      requestAnimationFrame(step);}
+    requestAnimationFrame(step);})();}
+}
+function rollCash(from,to){
+  var el=document.getElementById(&quot;amt&quot;),t0=null,dur=1100;
+  function step(ts){if(!t0)t0=ts;var p=(ts-t0)/dur;if(p&gt;1)p=1;var v=Math.floor(from+(to-from)*p);
+    el.innerHTML=&quot;$&quot;+v.toLocaleString(&quot;en-US&quot;);if(p&lt;1)requestAnimationFrame(step);}
+  requestAnimationFrame(step);
+}
+function heist(){
+  if(!started||busy||done)return;busy=true;
+  var v=document.getElementById(&quot;vault&quot;),ham=document.getElementById(&quot;hammer&quot;),st=document.getElementById(&quot;stage&quot;);
+  ham.className=&quot;swing&quot;;
+  setTimeout(function(){
+    v.className=&quot;hit&quot;;st.className=&quot;shake&quot;;sfxHit();
+    document.getElementById(&quot;dot&quot;+taps).className=&quot;tapdot on&quot;;
+    var vr=v.getBoundingClientRect();
+    taps++;
+    if(taps===1){
+      document.getElementById(&quot;crack&quot;).setAttribute(&quot;class&quot;,&quot;show&quot;);
+      coinBurst(vr.left+vr.width/2,vr.top+vr.height/2,6,-90);
+      document.querySelector(&quot;#prompt .cta&quot;).innerHTML=&#x27;TAP AGAIN &amp;#128165;&#x27;;
+      setTimeout(function(){v.className=&quot;&quot;;st.className=&quot;&quot;;busy=false;},360);
+    }else{
+      document.getElementById(&quot;flash&quot;).className=&quot;go&quot;;
+      v.className=&quot;open&quot;;
+      var cx=vr.left+vr.width/2,cy=vr.top+vr.height/2;
+      sfxCoin(AC?AC.currentTime:0);sfxWin();
+      coinBurst(cx,cy,26,-90);
+      setTimeout(function(){coinBurst(cx,cy+30,16,-90);},220);
+      var cp=document.getElementById(&quot;cashpop&quot;);cp.innerHTML=&quot;+$1,800,000&quot;;cp.className=&quot;show&quot;;
+      document.getElementById(&quot;prompt&quot;).className=&quot;hide&quot;;
+      rollCash(12400000,14200000);
+      document.getElementById(&quot;minicta&quot;).className=&quot;show&quot;;
+      done=true;stopTimer();
+      setTimeout(showEnd,1500);
+    }
+  },135);
+}
+function showEnd(){document.getElementById(&quot;endcard&quot;).className=&quot;show&quot;;}
+function tick(){left--;if(left&lt;=0){stopTimer();if(!done){done=true;document.getElementById(&quot;prompt&quot;).className=&quot;hide&quot;;showEnd();}}}
+function startTimer(){if(tmr)return;tmr=setInterval(tick,1000);}
+function stopTimer(){if(tmr){clearInterval(tmr);tmr=null;}}
+function bind(){
+  document.getElementById(&quot;vaultwrap&quot;).addEventListener(&quot;click&quot;,heist,false);
+  document.getElementById(&quot;cta&quot;).addEventListener(&quot;click&quot;,openStore,false);
+  document.getElementById(&quot;minicta&quot;).addEventListener(&quot;click&quot;,openStore,false);
+  document.getElementById(&quot;hammer&quot;).className=&quot;hb&quot;;
+}
+function showAd(){started=true;document.body.className=&quot;&quot;;startTimer();}
+function resumeAd(){document.body.className=&quot;&quot;;ensureAC();if(!done)startTimer();}
+function pauseAd(){document.body.className=&quot;paused&quot;;if(AC&amp;&amp;AC.suspend)AC.suspend();stopTimer();}
+function onView(v){if(v){started?resumeAd():showAd();}else{pauseAd();}}
+function onReady(){mraid.addEventListener(&quot;viewableChange&quot;,onView);if(mraid.isViewable())showAd();}
+function start(){bind();if(window.mraid){if(mraid.getState()===&quot;loading&quot;){mraid.addEventListener(&quot;ready&quot;,onReady);}else{onReady();}}}
+document.addEventListener(&quot;visibilitychange&quot;,function(){if(document.hidden){pauseAd();}else if(!window.mraid||mraid.isViewable()){if(started)resumeAd();}},false);
+start();
+})();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"></iframe></div><button class="replay" onclick="var f=document.getElementById('pf1');f.srcdoc=f.srcdoc;">&#8635;&nbsp;REPLAY</button></div><div class="meta"><div class="name">Bank Heist<span class="live">LIVE</span></div><div class="fmt hot">PVP THRILL &middot; 2 TAPS</div><div class="hook">A rival&rsquo;s vault, loaded &amp; unshielded. Smash it once to crack it, again to blow it open &mdash; cash pours into your balance as it counts up +$1.8M. Screen-shake, sound and all.</div><div class="thesis"><b>Tests:</b> the game&rsquo;s most social, high-arousal mechanic as the acquisition hook &mdash; aggression &amp; envy vs. the calmer core loop.</div><div class="file">MonopolyGO_BankHeist_2T.html</div></div></div><div class="card"><div class="phonewrap"><div class="phone"><iframe id="pf2" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;&gt;
+&lt;title&gt;MONOPOLY GO Playable — Build Your Board&lt;/title&gt;
+&lt;style&gt;
+html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);font-family:-apple-system,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,sans-serif}
+body{background:#7EC6E8;background:-webkit-linear-gradient(top,#8FD0EF 0%,#BFE6F5 46%,#F3E2B3 46%,#EAD293 100%);background:linear-gradient(to bottom,#8FD0EF 0%,#BFE6F5 46%,#F3E2B3 46%,#EAD293 100%)}
+#stage{position:absolute;top:0;left:0;right:0;bottom:0;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;touch-action:manipulation}
+#banner{margin-top:5%;text-align:center}
+.logo{display:inline-block;background:#ED1B24;color:#fff;font-weight:900;letter-spacing:1px;font-size:24px;padding:6px 16px;border-radius:10px;border:3px solid #fff;box-shadow:0 4px 0 #9B0C16,0 6px 14px rgba(0,0,0,.25);text-shadow:0 2px 0 #9B0C16;-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}
+.logo small{font-size:14px;vertical-align:3px;letter-spacing:2px}
+#tag{color:#C0142B;font-weight:900;font-size:14px;letter-spacing:3px;margin-top:10px;text-shadow:0 1px 0 rgba(255,255,255,.5)}
+/* progress */
+#prog{width:80%;max-width:440px;margin-top:12px;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center}
+#pbar{-webkit-flex:1;flex:1;height:16px;background:rgba(255,255,255,.55);border:2px solid #fff;border-radius:10px;overflow:hidden;box-shadow:0 2px 4px rgba(0,0,0,.15)}
+#pfill{width:0%;height:100%;background:#4E9F3D;background:-webkit-linear-gradient(top,#67c24f,#3f8a31);background:linear-gradient(to bottom,#67c24f,#3f8a31);-webkit-transition:width .5s cubic-bezier(.34,1.56,.64,1);transition:width .5s cubic-bezier(.34,1.56,.64,1)}
+#plabel{margin-left:10px;font-weight:900;color:#4E7A33;font-size:14px;white-space:nowrap}
+/* scene */
+#scene{-webkit-flex:1;flex:1;width:100%;position:relative;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;min-height:0}
+#lots{width:94%;max-width:540px;display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;-webkit-align-items:flex-end;align-items:flex-end;padding-bottom:2%}
+.lot{width:30%;max-width:150px;margin:0 2%;position:relative;text-align:center;cursor:pointer}
+.plot{position:relative;height:150px;display:-webkit-flex;display:flex;-webkit-align-items:flex-end;align-items:flex-end;-webkit-justify-content:center;justify-content:center}
+.foundation{position:absolute;bottom:0;left:8%;right:8%;height:16px;border-radius:6px 6px 3px 3px;background:#9c7b3e;border:2px dashed #c0a468}
+.lot.done .foundation{border-style:solid;background:#8a6b34}
+.bld{position:absolute;bottom:12px;left:0;right:0;display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;-webkit-transform-origin:50% 100%;transform-origin:50% 100%;-webkit-transform:scale(0);transform:scale(0)}
+.lot.done .bld{-webkit-animation:rise .5s cubic-bezier(.34,1.7,.5,1) forwards;animation:rise .5s cubic-bezier(.34,1.7,.5,1) forwards}
+@-webkit-keyframes rise{0%{-webkit-transform:scale(0) translateY(10px)}70%{-webkit-transform:scale(1.08,.94) translateY(0)}100%{-webkit-transform:scale(1,1)}}
+@keyframes rise{0%{transform:scale(0) translateY(10px)}70%{transform:scale(1.08,.94) translateY(0)}100%{transform:scale(1,1)}}
+.tapme{position:absolute;top:34%;left:0;right:0;text-align:center;font-weight:900;color:#C0142B;font-size:13px;letter-spacing:1px}
+.tapme .plus{display:block;font-size:34px;line-height:1;color:#fff;text-shadow:0 2px 3px rgba(0,0,0,.25);-webkit-animation:tp 1.05s ease-in-out infinite;animation:tp 1.05s ease-in-out infinite}
+@-webkit-keyframes tp{0%,100%{-webkit-transform:translateY(0)}50%{-webkit-transform:translateY(-8px)}}
+@keyframes tp{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.lot.done .tapme{display:none}
+.dust{position:absolute;bottom:14px;left:50%;width:70px;height:24px;margin-left:-35px;border-radius:50%;background:rgba(255,255,255,.85);opacity:0;pointer-events:none}
+.lot.done .dust{-webkit-animation:dust .5s ease-out;animation:dust .5s ease-out}
+@-webkit-keyframes dust{0%{opacity:.9;-webkit-transform:scale(.4)}100%{opacity:0;-webkit-transform:scale(1.6)}}
+@keyframes dust{0%{opacity:.9;transform:scale(.4)}100%{opacity:0;transform:scale(1.6)}}
+.lot .name{margin-top:4px;font-size:11px;font-weight:800;color:#7a5a2a}
+/* sun + clouds decorative */
+#sun{position:absolute;top:6%;right:12%;width:46px;height:46px;border-radius:50%;background:#FFD54A;box-shadow:0 0 26px rgba(255,213,74,.8)}
+.cloud{position:absolute;background:rgba(255,255,255,.85);border-radius:20px;height:16px}
+#c1{top:16%;left:10%;width:60px}#c2{top:24%;right:22%;width:42px}
+#cashpop{position:absolute;top:24%;left:50%;-webkit-transform:translateX(-50%) scale(.4);transform:translateX(-50%) scale(.4);opacity:0;color:#fff;font-weight:900;font-size:26px;text-shadow:0 2px 0 #4E7A33,0 0 18px rgba(255,255,255,.8);z-index:20;pointer-events:none;white-space:nowrap}
+#cashpop.show{-webkit-animation:cashin .5s cubic-bezier(.34,1.56,.64,1) forwards;animation:cashin .5s cubic-bezier(.34,1.56,.64,1) forwards}
+@-webkit-keyframes cashin{0%{opacity:0;-webkit-transform:translateX(-50%) scale(.4)}60%{opacity:1;-webkit-transform:translateX(-50%) scale(1.16)}100%{opacity:1;-webkit-transform:translateX(-50%) scale(1)}}
+@keyframes cashin{0%{opacity:0;transform:translateX(-50%) scale(.4)}60%{opacity:1;transform:translateX(-50%) scale(1.16)}100%{opacity:1;transform:translateX(-50%) scale(1)}}
+.coin{position:absolute;width:24px;height:24px;z-index:15;pointer-events:none;will-change:transform,opacity}
+.confetti{position:absolute;width:10px;height:14px;z-index:16;pointer-events:none;opacity:0}
+#minicta{position:absolute;left:50%;bottom:3.5%;-webkit-transform:translateX(-50%);transform:translateX(-50%);padding:11px 24px;border:0;border-radius:14px;background:#ED1B24;box-shadow:0 5px 0 #9B0C16;color:#fff;font-size:14px;font-weight:900;letter-spacing:.6px;cursor:pointer;z-index:9}
+/* endcard */
+#endcard{position:absolute;top:0;left:0;right:0;bottom:0;background:#ED1B24;background:-webkit-radial-gradient(50% 24%,#ff3a43,#c50f18);background:radial-gradient(circle at 50% 24%,#ff3a43,#c50f18);display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;opacity:0;visibility:hidden;-webkit-transition:opacity .4s ease;transition:opacity .4s ease;z-index:30}
+#endcard.show{opacity:1;visibility:visible}
+#endcard .man{width:148px;height:auto}
+#eh{color:#fff;font-size:25px;font-weight:900;margin:8px 8% 4px;text-align:center;text-shadow:0 2px 0 #9B0C16}
+#es{color:#FFE08A;font-size:15px;font-weight:700;margin:0 12% 20px;text-align:center;line-height:1.4}
+#cta{padding:16px 40px;border:0;border-radius:16px;background:#FFD54A;box-shadow:0 6px 0 #C79412;color:#7a5600;font-size:18px;font-weight:900;letter-spacing:1px;cursor:pointer}
+.pulse{-webkit-animation:pulse 1.3s ease-in-out infinite;animation:pulse 1.3s ease-in-out infinite}
+@-webkit-keyframes pulse{0%,100%{-webkit-transform:scale(1)}50%{-webkit-transform:scale(1.06)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+.float{-webkit-animation:float 2.4s ease-in-out infinite;animation:float 2.4s ease-in-out infinite}
+@-webkit-keyframes float{0%,100%{-webkit-transform:translateY(0) rotate(-1deg)}50%{-webkit-transform:translateY(-10px) rotate(1deg)}}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-10px) rotate(1deg)}}
+body.paused *{-webkit-animation-play-state:paused !important;animation-play-state:paused !important}
+@media (prefers-reduced-motion:reduce){.float,.pulse,.tapme .plus{-webkit-animation:none;animation:none}}
+@media (orientation:landscape){
+  #banner{margin-top:2%}.logo{font-size:19px}#tag{margin-top:4px}
+  .plot{height:104px}#lots{padding-bottom:0}
+  #endcard{-webkit-flex-direction:row;flex-direction:row}#endcard .man{width:116px;margin-right:4%}
+  #endcard .col{max-width:52%;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center}#eh{font-size:21px}
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body class=&quot;paused&quot;&gt;&lt;script&gt;window.mraid={_l:{},getState:function(){return &quot;default&quot;},isViewable:function(){return true},addEventListener:function(e,f){this._l[e]=f},removeEventListener:function(){},open:function(u){window.open(u,&quot;_blank&quot;)}};&lt;/script&gt;
+&lt;div id=&quot;stage&quot;&gt;
+  &lt;div id=&quot;banner&quot;&gt;&lt;span class=&quot;logo&quot;&gt;MONOPOLY &lt;small&gt;GO!&lt;/small&gt;&lt;/span&gt;&lt;div id=&quot;tag&quot;&gt;&amp;#127959;&amp;#65039; BUILD YOUR BOARD&lt;/div&gt;&lt;/div&gt;
+  &lt;div id=&quot;prog&quot;&gt;&lt;div id=&quot;pbar&quot;&gt;&lt;div id=&quot;pfill&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id=&quot;plabel&quot;&gt;0 / 3&lt;/div&gt;&lt;/div&gt;
+  &lt;div id=&quot;scene&quot;&gt;
+    &lt;div id=&quot;sun&quot;&gt;&lt;/div&gt;&lt;div class=&quot;cloud&quot; id=&quot;c1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;cloud&quot; id=&quot;c2&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;lots&quot;&gt;
+      &lt;div class=&quot;lot&quot; data-i=&quot;0&quot; data-cash=&quot;250K&quot;&gt;
+        &lt;div class=&quot;plot&quot;&gt;
+          &lt;div class=&quot;dust&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;bld&quot;&gt;&lt;svg viewBox=&quot;0 0 90 120&quot; width=&quot;80&quot;&gt;&lt;rect x=&quot;26&quot; y=&quot;18&quot; width=&quot;38&quot; height=&quot;96&quot; rx=&quot;3&quot; fill=&quot;#5BC0EB&quot;/&gt;&lt;rect x=&quot;26&quot; y=&quot;18&quot; width=&quot;38&quot; height=&quot;12&quot; fill=&quot;#3a9ecb&quot;/&gt;&lt;rect x=&quot;32&quot; y=&quot;36&quot; width=&quot;9&quot; height=&quot;12&quot; fill=&quot;#dff3fb&quot;/&gt;&lt;rect x=&quot;49&quot; y=&quot;36&quot; width=&quot;9&quot; height=&quot;12&quot; fill=&quot;#dff3fb&quot;/&gt;&lt;rect x=&quot;32&quot; y=&quot;56&quot; width=&quot;9&quot; height=&quot;12&quot; fill=&quot;#dff3fb&quot;/&gt;&lt;rect x=&quot;49&quot; y=&quot;56&quot; width=&quot;9&quot; height=&quot;12&quot; fill=&quot;#dff3fb&quot;/&gt;&lt;rect x=&quot;32&quot; y=&quot;76&quot; width=&quot;9&quot; height=&quot;12&quot; fill=&quot;#dff3fb&quot;/&gt;&lt;rect x=&quot;49&quot; y=&quot;76&quot; width=&quot;9&quot; height=&quot;12&quot; fill=&quot;#dff3fb&quot;/&gt;&lt;rect x=&quot;38&quot; y=&quot;96&quot; width=&quot;14&quot; height=&quot;18&quot; fill=&quot;#2f80ab&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;
+          &lt;div class=&quot;foundation&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;tapme&quot;&gt;&lt;span class=&quot;plus&quot;&gt;+&lt;/span&gt;BUILD&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;name&quot;&gt;Ice Tower&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;lot&quot; data-i=&quot;1&quot; data-cash=&quot;500K&quot;&gt;
+        &lt;div class=&quot;plot&quot;&gt;
+          &lt;div class=&quot;dust&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;bld&quot;&gt;&lt;svg viewBox=&quot;0 0 90 120&quot; width=&quot;86&quot;&gt;&lt;rect x=&quot;18&quot; y=&quot;46&quot; width=&quot;54&quot; height=&quot;68&quot; rx=&quot;3&quot; fill=&quot;#E23B7A&quot;/&gt;&lt;path d=&quot;M14 46 L45 20 L76 46 Z&quot; fill=&quot;#c22c63&quot;/&gt;&lt;rect x=&quot;24&quot; y=&quot;58&quot; width=&quot;12&quot; height=&quot;14&quot; fill=&quot;#ffe0ee&quot;/&gt;&lt;rect x=&quot;54&quot; y=&quot;58&quot; width=&quot;12&quot; height=&quot;14&quot; fill=&quot;#ffe0ee&quot;/&gt;&lt;rect x=&quot;38&quot; y=&quot;86&quot; width=&quot;14&quot; height=&quot;28&quot; fill=&quot;#a52351&quot;/&gt;&lt;circle cx=&quot;45&quot; cy=&quot;34&quot; r=&quot;5&quot; fill=&quot;#FFD54A&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;
+          &lt;div class=&quot;foundation&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;tapme&quot;&gt;&lt;span class=&quot;plus&quot;&gt;+&lt;/span&gt;BUILD&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;name&quot;&gt;Pink Plaza&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;lot&quot; data-i=&quot;2&quot; data-cash=&quot;1M&quot;&gt;
+        &lt;div class=&quot;plot&quot;&gt;
+          &lt;div class=&quot;dust&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;bld&quot;&gt;&lt;svg viewBox=&quot;0 0 90 120&quot; width=&quot;82&quot;&gt;&lt;rect x=&quot;30&quot; y=&quot;40&quot; width=&quot;30&quot; height=&quot;74&quot; fill=&quot;#F0B429&quot;/&gt;&lt;path d=&quot;M45 12 L58 40 L32 40 Z&quot; fill=&quot;#d99a12&quot;/&gt;&lt;rect x=&quot;38&quot; y=&quot;52&quot; width=&quot;14&quot; height=&quot;14&quot; fill=&quot;#fff3d0&quot;/&gt;&lt;rect x=&quot;38&quot; y=&quot;74&quot; width=&quot;14&quot; height=&quot;14&quot; fill=&quot;#fff3d0&quot;/&gt;&lt;rect x=&quot;38&quot; y=&quot;96&quot; width=&quot;14&quot; height=&quot;18&quot; fill=&quot;#b87d0a&quot;/&gt;&lt;circle cx=&quot;45&quot; cy=&quot;10&quot; r=&quot;4&quot; fill=&quot;#ED1B24&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;
+          &lt;div class=&quot;foundation&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;tapme&quot;&gt;&lt;span class=&quot;plus&quot;&gt;+&lt;/span&gt;BUILD&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;name&quot;&gt;Gold Landmark&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;cashpop&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;button id=&quot;minicta&quot;&gt;GET THE APP&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&quot;endcard&quot;&gt;
+  &lt;svg class=&quot;man float&quot; viewBox=&quot;0 0 200 240&quot;&gt;&lt;ellipse cx=&quot;100&quot; cy=&quot;232&quot; rx=&quot;54&quot; ry=&quot;7&quot; fill=&quot;rgba(0,0,0,.25)&quot;/&gt;&lt;rect x=&quot;55&quot; y=&quot;8&quot; width=&quot;90&quot; height=&quot;56&quot; rx=&quot;7&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;34&quot; y=&quot;60&quot; width=&quot;132&quot; height=&quot;15&quot; rx=&quot;7&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;55&quot; y=&quot;49&quot; width=&quot;90&quot; height=&quot;12&quot; fill=&quot;#3a332e&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;120&quot; r=&quot;52&quot; fill=&quot;#F1C9A0&quot;/&gt;&lt;circle cx=&quot;49&quot; cy=&quot;122&quot; r=&quot;10&quot; fill=&quot;#F1C9A0&quot;/&gt;&lt;circle cx=&quot;151&quot; cy=&quot;122&quot; r=&quot;10&quot; fill=&quot;#F1C9A0&quot;/&gt;&lt;rect x=&quot;72&quot; y=&quot;98&quot; width=&quot;18&quot; height=&quot;5&quot; rx=&quot;2&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;112&quot; y=&quot;98&quot; width=&quot;18&quot; height=&quot;5&quot; rx=&quot;2&quot; fill=&quot;#171310&quot;/&gt;&lt;circle cx=&quot;81&quot; cy=&quot;112&quot; r=&quot;4&quot; fill=&quot;#171310&quot;/&gt;&lt;circle cx=&quot;119&quot; cy=&quot;112&quot; r=&quot;4&quot; fill=&quot;#171310&quot;/&gt;&lt;circle cx=&quot;119&quot; cy=&quot;112&quot; r=&quot;15&quot; fill=&quot;none&quot; stroke=&quot;#C79412&quot; stroke-width=&quot;3&quot;/&gt;&lt;line x1=&quot;119&quot; y1=&quot;127&quot; x2=&quot;130&quot; y2=&quot;152&quot; stroke=&quot;#C79412&quot; stroke-width=&quot;2&quot;/&gt;&lt;circle cx=&quot;72&quot; cy=&quot;134&quot; r=&quot;8&quot; fill=&quot;#EC9E93&quot; opacity=&quot;.55&quot;/&gt;&lt;circle cx=&quot;128&quot; cy=&quot;134&quot; r=&quot;8&quot; fill=&quot;#EC9E93&quot; opacity=&quot;.55&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;130&quot; r=&quot;7&quot; fill=&quot;#E3AE85&quot;/&gt;&lt;path d=&quot;M68 142 Q100 132 132 142 Q116 160 100 151 Q84 160 68 142Z&quot; fill=&quot;#fff&quot;/&gt;&lt;path d=&quot;M85 180 L100 189 L85 197 Z&quot; fill=&quot;#C0142B&quot;/&gt;&lt;path d=&quot;M115 180 L100 189 L115 197 Z&quot; fill=&quot;#C0142B&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;189&quot; r=&quot;4.5&quot; fill=&quot;#9B0C22&quot;/&gt;&lt;path d=&quot;M42 240 Q46 202 100 200 Q154 202 158 240 Z&quot; fill=&quot;#171310&quot;/&gt;&lt;path d=&quot;M100 200 L89 240 L111 240 Z&quot; fill=&quot;#fff&quot;/&gt;&lt;/svg&gt;
+  &lt;div class=&quot;col&quot;&gt;
+    &lt;div id=&quot;eh&quot;&gt;Your board is booming!&lt;/div&gt;
+    &lt;div id=&quot;es&quot;&gt;Build landmarks, collect rent &amp;amp; rule the board in MONOPOLY GO!&lt;/div&gt;
+    &lt;button id=&quot;cta&quot; class=&quot;pulse&quot;&gt;PLAY FREE&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function(){
+&quot;use strict&quot;;
+var STORE={iOS:&quot;https://apps.apple.com/app/monopoly-go/id1621328561&quot;,Android:&quot;https://play.google.com/store/apps/details?id=com.scopely.monopolygo&quot;};
+var IS_IOS=/iP(hone|od|ad)/.test(navigator.userAgent);
+var started=false,built=0,done=false,AC=null,tmr=null,left=25;
+function openStore(){var u=IS_IOS?STORE.iOS:STORE.Android;if(window.mraid&amp;&amp;mraid.open){mraid.open(u);}}
+function tone(freq,t0,dur,vol,type){try{if(!AC)return;var o=AC.createOscillator(),g=AC.createGain();o.type=type||&quot;sine&quot;;o.frequency.value=freq;g.gain.setValueAtTime(0.0001,t0);g.gain.exponentialRampToValueAtTime(vol||0.2,t0+0.015);g.gain.exponentialRampToValueAtTime(0.0001,t0+dur);o.connect(g);g.connect(AC.destination);o.start(t0);o.stop(t0+dur+0.02);}catch(e){}}
+function ensureAC(){try{var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;if(!AC)AC=new Ctx();if(AC.state===&quot;suspended&quot;&amp;&amp;AC.resume)AC.resume();}catch(e){}}
+function sfxBuild(n){ensureAC();var t=AC?AC.currentTime:0;tone(300+n*120,t,0.1,0.18,&quot;square&quot;);tone(500+n*160,t+0.06,0.2,0.16,&quot;triangle&quot;);}
+function sfxCoin(t0){var f=[784,988,1175,1319],i;for(i=0;i&lt;f.length;i++)tone(f[i],t0+i*0.05,0.18,0.14,&quot;triangle&quot;);}
+function sfxWin(){var t=AC?AC.currentTime:0,n=[523,659,784,1047,1319],i;for(i=0;i&lt;n.length;i++)tone(n[i],t+i*0.09,0.32,0.18,&quot;sine&quot;);}
+function coinBurst(x,y,n){
+  if(window.matchMedia&amp;&amp;matchMedia(&quot;(prefers-reduced-motion: reduce)&quot;).matches)return;
+  var i;for(i=0;i&lt;n;i++){(function(){
+    var c=document.createElement(&quot;div&quot;);c.className=&quot;coin&quot;;
+    c.innerHTML=&#x27;&lt;svg viewBox=&quot;0 0 30 30&quot; width=&quot;24&quot; height=&quot;24&quot;&gt;&lt;circle cx=&quot;15&quot; cy=&quot;15&quot; r=&quot;14&quot; fill=&quot;#C79412&quot;/&gt;&lt;circle cx=&quot;15&quot; cy=&quot;15&quot; r=&quot;11&quot; fill=&quot;#FFD54A&quot;/&gt;&lt;text x=&quot;15&quot; y=&quot;20&quot; font-size=&quot;14&quot; font-weight=&quot;900&quot; text-anchor=&quot;middle&quot; fill=&quot;#B47C0A&quot; font-family=&quot;Georgia,serif&quot;&gt;$&lt;/text&gt;&lt;/svg&gt;&#x27;;
+    c.style.left=x+&quot;px&quot;;c.style.top=y+&quot;px&quot;;document.body.appendChild(c);
+    var ang=(-90+(Math.random()*130-65))*Math.PI/180,sp=140+Math.random()*170;
+    var vx=Math.cos(ang)*sp,vy=Math.sin(ang)*sp,t0=null,dur=800+Math.random()*300;
+    function step(ts){if(!t0)t0=ts;var p=(ts-t0)/dur;if(p&gt;=1){if(c.parentNode)c.parentNode.removeChild(c);return;}
+      c.style.opacity=p&gt;0.75?String(1-(p-0.75)/0.25):&quot;1&quot;;
+      c.style.webkitTransform=c.style.transform=&quot;translate(&quot;+(vx*p)+&quot;px,&quot;+(vy*p+430*p*p)+&quot;px) rotate(&quot;+(p*520)+&quot;deg)&quot;;
+      requestAnimationFrame(step);}
+    requestAnimationFrame(step);})();}
+}
+function confetti(){
+  if(window.matchMedia&amp;&amp;matchMedia(&quot;(prefers-reduced-motion: reduce)&quot;).matches)return;
+  var cols=[&quot;#ED1B24&quot;,&quot;#FFD54A&quot;,&quot;#4E9F3D&quot;,&quot;#5BC0EB&quot;,&quot;#E23B7A&quot;],i;
+  for(i=0;i&lt;26;i++){(function(){
+    var d=document.createElement(&quot;div&quot;);d.className=&quot;confetti&quot;;d.style.background=cols[(Math.random()*cols.length)|0];
+    var x=window.innerWidth/2+(Math.random()*window.innerWidth*0.8-window.innerWidth*0.4),y=window.innerHeight*0.35;
+    d.style.left=x+&quot;px&quot;;d.style.top=y+&quot;px&quot;;document.body.appendChild(d);
+    var vx=(Math.random()*2-1)*160,vy=-(120+Math.random()*180),t0=null,dur=1100+Math.random()*500;
+    function step(ts){if(!t0)t0=ts;var p=(ts-t0)/dur;if(p&gt;=1){if(d.parentNode)d.parentNode.removeChild(d);return;}
+      d.style.opacity=p&lt;0.1?String(p/0.1):String(1-p);
+      d.style.webkitTransform=d.style.transform=&quot;translate(&quot;+(vx*p)+&quot;px,&quot;+(vy*p+520*p*p)+&quot;px) rotate(&quot;+(p*700)+&quot;deg)&quot;;
+      requestAnimationFrame(step);}
+    requestAnimationFrame(step);})();}
+}
+function buildLot(lot){
+  if(!started||done)return;
+  if(lot.className.indexOf(&quot;done&quot;)&gt;=0)return;
+  lot.className=&quot;lot done&quot;;
+  built++;
+  sfxBuild(built);
+  var pr=lot.querySelector(&quot;.plot&quot;).getBoundingClientRect();
+  coinBurst(pr.left+pr.width/2,pr.top+pr.height*0.4,7);
+  sfxCoin(AC?AC.currentTime:0);
+  document.getElementById(&quot;pfill&quot;).style.width=(built/3*100)+&quot;%&quot;;
+  document.getElementById(&quot;plabel&quot;).innerHTML=built+&quot; / 3&quot;;
+  if(built&gt;=3){
+    done=true;stopTimer();
+    var cp=document.getElementById(&quot;cashpop&quot;);cp.innerHTML=&quot;BOARD COMPLETE!&quot;;cp.className=&quot;show&quot;;
+    setTimeout(function(){confetti();sfxWin();},150);
+    setTimeout(function(){coinBurst(window.innerWidth/2,window.innerHeight*0.4,16);},350);
+    setTimeout(showEnd,1500);
+  }
+}
+function showEnd(){document.getElementById(&quot;endcard&quot;).className=&quot;show&quot;;}
+function tick(){left--;if(left&lt;=0){stopTimer();if(!done){done=true;showEnd();}}}
+function startTimer(){if(tmr)return;tmr=setInterval(tick,1000);}
+function stopTimer(){if(tmr){clearInterval(tmr);tmr=null;}}
+function bind(){
+  var lots=document.querySelectorAll(&quot;.lot&quot;),i;
+  for(i=0;i&lt;lots.length;i++){(function(l){l.addEventListener(&quot;click&quot;,function(){buildLot(l);},false);})(lots[i]);}
+  document.getElementById(&quot;cta&quot;).addEventListener(&quot;click&quot;,openStore,false);
+  document.getElementById(&quot;minicta&quot;).addEventListener(&quot;click&quot;,openStore,false);
+}
+function showAd(){started=true;document.body.className=&quot;&quot;;startTimer();}
+function resumeAd(){document.body.className=&quot;&quot;;ensureAC();if(!done)startTimer();}
+function pauseAd(){document.body.className=&quot;paused&quot;;if(AC&amp;&amp;AC.suspend)AC.suspend();stopTimer();}
+function onView(v){if(v){started?resumeAd():showAd();}else{pauseAd();}}
+function onReady(){mraid.addEventListener(&quot;viewableChange&quot;,onView);if(mraid.isViewable())showAd();}
+function start(){bind();if(window.mraid){if(mraid.getState()===&quot;loading&quot;){mraid.addEventListener(&quot;ready&quot;,onReady);}else{onReady();}}}
+document.addEventListener(&quot;visibilitychange&quot;,function(){if(document.hidden){pauseAd();}else if(!window.mraid||mraid.isViewable()){if(started)resumeAd();}},false);
+start();
+})();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"></iframe></div><button class="replay" onclick="var f=document.getElementById('pf2');f.srcdoc=f.srcdoc;">&#8635;&nbsp;REPLAY</button></div><div class="meta"><div class="name">Build Your Board<span class="live">LIVE</span></div><div class="fmt">TYCOON &middot; 3+ TAPS</div><div class="hook">Three empty lots. Tap each to raise a landmark &mdash; Ice Tower, Pink Plaza, Gold Landmark spring up with coin pops until the board is complete and the confetti flies.</div><div class="thesis"><b>Tests:</b> progression &amp; ownership &mdash; does a &ldquo;build my empire&rdquo; fantasy qualify higher-LTV, retention-minded installs?</div><div class="file">MonopolyGO_BuildBoard_3plus.html</div></div></div></div><h2>Proven playable formats, MONOPOLY GO&ndash;styled</h2><div class="grid"><div class="card"><div class="phonewrap"><div class="phone"><iframe id="pf3" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;&gt;
+&lt;title&gt;MONOPOLY GO Playable — Prize Drop&lt;/title&gt;
+&lt;style&gt;
+html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);font-family:-apple-system,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,sans-serif}
+body{background:#12294a;background:-webkit-radial-gradient(50% 24%,#22467a 0%,#12294a 72%,#0b1a30 100%);background:radial-gradient(circle at 50% 24%,#22467a 0%,#12294a 72%,#0b1a30 100%)}
+#stage{position:absolute;top:0;left:0;right:0;bottom:0;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;touch-action:manipulation}
+#banner{margin-top:4.5%;text-align:center}
+.logo{display:inline-block;background:#ED1B24;color:#fff;font-weight:900;letter-spacing:1px;font-size:23px;padding:6px 16px;border-radius:10px;border:3px solid #fff;box-shadow:0 4px 0 #9B0C16,0 6px 14px rgba(0,0,0,.35);text-shadow:0 2px 0 #9B0C16;-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}
+.logo small{font-size:14px;vertical-align:3px;letter-spacing:2px}
+#tag{color:#FFD54A;font-weight:900;font-size:14px;letter-spacing:3px;margin-top:9px}
+/* board */
+#board{position:relative;width:92%;max-width:420px;-webkit-flex:1;flex:1;margin:10px 0 4px;min-height:0}
+.peg{position:absolute;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:#dfe9f5;box-shadow:0 0 6px rgba(255,255,255,.5)}
+#ball{position:absolute;width:34px;height:34px;margin:-17px 0 0 -17px;z-index:8;left:50%;top:16px}
+#ball svg{width:34px;height:34px;display:block;-webkit-filter:drop-shadow(0 3px 4px rgba(0,0,0,.5));filter:drop-shadow(0 3px 4px rgba(0,0,0,.5))}
+#slots{position:absolute;left:0;right:0;bottom:0;height:52px;display:-webkit-flex;display:flex}
+.slot{-webkit-flex:1;flex:1;margin:0 2px;border-radius:8px 8px 6px 6px;background:rgba(255,255,255,.1);border:2px solid rgba(255,255,255,.18);display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;color:#dfe9f5;font-weight:900;font-size:12px;text-align:center;line-height:1.05}
+.slot.jack{background:#C79412;background:-webkit-linear-gradient(top,#FFD54A,#E0A81C);background:linear-gradient(to bottom,#FFD54A,#E0A81C);border-color:#fff;color:#6a4a00;font-size:11px;box-shadow:0 0 16px rgba(255,213,74,.7)}
+.slot.win{-webkit-animation:winpulse .5s ease infinite;animation:winpulse .5s ease infinite}
+@-webkit-keyframes winpulse{0%,100%{-webkit-transform:translateY(0)}50%{-webkit-transform:translateY(-8px)}}
+@keyframes winpulse{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+#prompt{position:absolute;left:0;right:0;top:40%;text-align:center;color:#fff;z-index:9}
+#prompt .cta{font-size:20px;font-weight:900;letter-spacing:1px;text-shadow:0 2px 5px rgba(0,0,0,.6)}
+#hand{font-size:30px;display:block;margin-top:4px;-webkit-animation:tap 1.05s ease-in-out infinite;animation:tap 1.05s ease-in-out infinite}
+@-webkit-keyframes tap{0%,100%{-webkit-transform:translateY(0)}50%{-webkit-transform:translateY(9px)}}
+@keyframes tap{0%,100%{transform:translateY(0)}50%{transform:translateY(9px)}}
+#prompt.hide{opacity:0;-webkit-transition:opacity .2s;transition:opacity .2s;pointer-events:none}
+#cashpop{position:absolute;left:50%;top:30%;-webkit-transform:translateX(-50%) scale(.4);transform:translateX(-50%) scale(.4);opacity:0;color:#fff;font-weight:900;font-size:30px;text-shadow:0 3px 0 #6a4a00,0 0 22px rgba(255,213,74,.9);z-index:20;pointer-events:none;white-space:nowrap;text-align:center}
+#cashpop.show{-webkit-animation:cashin .5s cubic-bezier(.34,1.56,.64,1) forwards;animation:cashin .5s cubic-bezier(.34,1.56,.64,1) forwards}
+@-webkit-keyframes cashin{0%{opacity:0;-webkit-transform:translateX(-50%) scale(.4)}60%{opacity:1;-webkit-transform:translateX(-50%) scale(1.18)}100%{opacity:1;-webkit-transform:translateX(-50%) scale(1)}}
+@keyframes cashin{0%{opacity:0;transform:translateX(-50%) scale(.4)}60%{opacity:1;transform:translateX(-50%) scale(1.18)}100%{opacity:1;transform:translateX(-50%) scale(1)}}
+.coin{position:absolute;width:26px;height:26px;z-index:15;pointer-events:none;will-change:transform,opacity}
+#minicta{margin-bottom:12px;padding:11px 24px;border:0;border-radius:14px;background:#FFD54A;box-shadow:0 5px 0 #C79412;color:#7a5600;font-size:14px;font-weight:900;letter-spacing:.6px;cursor:pointer;z-index:9}
+/* endcard */
+#endcard{position:absolute;top:0;left:0;right:0;bottom:0;background:#ED1B24;background:-webkit-radial-gradient(50% 24%,#ff3a43,#c50f18);background:radial-gradient(circle at 50% 24%,#ff3a43,#c50f18);display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;opacity:0;visibility:hidden;-webkit-transition:opacity .4s ease;transition:opacity .4s ease;z-index:30}
+#endcard.show{opacity:1;visibility:visible}
+#endcard .man{width:148px;height:auto}
+#eh{color:#fff;font-size:25px;font-weight:900;margin:8px 8% 4px;text-align:center;text-shadow:0 2px 0 #9B0C16}
+#es{color:#FFE08A;font-size:15px;font-weight:700;margin:0 12% 20px;text-align:center;line-height:1.4}
+#cta{padding:16px 40px;border:0;border-radius:16px;background:#FFD54A;box-shadow:0 6px 0 #C79412;color:#7a5600;font-size:18px;font-weight:900;letter-spacing:1px;cursor:pointer}
+.pulse{-webkit-animation:pulse 1.3s ease-in-out infinite;animation:pulse 1.3s ease-in-out infinite}
+@-webkit-keyframes pulse{0%,100%{-webkit-transform:scale(1)}50%{-webkit-transform:scale(1.06)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+.float{-webkit-animation:float 2.4s ease-in-out infinite;animation:float 2.4s ease-in-out infinite}
+@-webkit-keyframes float{0%,100%{-webkit-transform:translateY(0) rotate(-1deg)}50%{-webkit-transform:translateY(-10px) rotate(1deg)}}
+@keyframes float{0%,100%{transform:translateY(0) rotate(1deg)}50%{transform:translateY(-10px) rotate(-1deg)}}
+body.paused *{-webkit-animation-play-state:paused !important;animation-play-state:paused !important}
+@media (prefers-reduced-motion:reduce){.float,.pulse,#hand{-webkit-animation:none;animation:none}}
+@media (orientation:landscape){
+  #banner{margin-top:1.5%}.logo{font-size:18px}#tag{margin-top:3px}
+  #board{max-width:340px}
+  #endcard{-webkit-flex-direction:row;flex-direction:row}#endcard .man{width:116px;margin-right:4%}
+  #endcard .col{max-width:52%;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center}#eh{font-size:21px}
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body class=&quot;paused&quot;&gt;&lt;script&gt;window.mraid={_l:{},getState:function(){return &quot;default&quot;},isViewable:function(){return true},addEventListener:function(e,f){this._l[e]=f},removeEventListener:function(){},open:function(u){window.open(u,&quot;_blank&quot;)}};&lt;/script&gt;
+&lt;div id=&quot;stage&quot;&gt;
+  &lt;div id=&quot;banner&quot;&gt;&lt;span class=&quot;logo&quot;&gt;MONOPOLY &lt;small&gt;GO!&lt;/small&gt;&lt;/span&gt;&lt;div id=&quot;tag&quot;&gt;&amp;#127920; PRIZE DROP&lt;/div&gt;&lt;/div&gt;
+  &lt;div id=&quot;board&quot;&gt;
+    &lt;div id=&quot;ball&quot;&gt;&lt;svg viewBox=&quot;0 0 40 40&quot;&gt;&lt;rect x=&quot;9&quot; y=&quot;6&quot; width=&quot;22&quot; height=&quot;18&quot; rx=&quot;3&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;5&quot; y=&quot;22&quot; width=&quot;30&quot; height=&quot;6&quot; rx=&quot;3&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;9&quot; y=&quot;18&quot; width=&quot;22&quot; height=&quot;5&quot; fill=&quot;#C0142B&quot;/&gt;&lt;circle cx=&quot;20&quot; cy=&quot;15&quot; r=&quot;5&quot; fill=&quot;#FFD54A&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;
+    &lt;div id=&quot;slots&quot;&gt;
+      &lt;div class=&quot;slot&quot;&gt;50K&lt;/div&gt;
+      &lt;div class=&quot;slot&quot;&gt;&amp;#127922;&amp;times;3&lt;/div&gt;
+      &lt;div class=&quot;slot&quot;&gt;500K&lt;/div&gt;
+      &lt;div class=&quot;slot jack&quot;&gt;JACK&lt;br&gt;POT&lt;/div&gt;
+      &lt;div class=&quot;slot&quot;&gt;500K&lt;/div&gt;
+      &lt;div class=&quot;slot&quot;&gt;&amp;#127922;&amp;times;3&lt;/div&gt;
+      &lt;div class=&quot;slot&quot;&gt;50K&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;prompt&quot;&gt;&lt;div class=&quot;cta&quot;&gt;TAP TO DROP&lt;/div&gt;&lt;span id=&quot;hand&quot;&gt;&amp;#128070;&lt;/span&gt;&lt;/div&gt;
+    &lt;div id=&quot;cashpop&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;button id=&quot;minicta&quot;&gt;GET THE APP&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&quot;endcard&quot;&gt;
+  &lt;svg class=&quot;man float&quot; viewBox=&quot;0 0 200 240&quot;&gt;&lt;ellipse cx=&quot;100&quot; cy=&quot;232&quot; rx=&quot;54&quot; ry=&quot;7&quot; fill=&quot;rgba(0,0,0,.25)&quot;/&gt;&lt;rect x=&quot;55&quot; y=&quot;8&quot; width=&quot;90&quot; height=&quot;56&quot; rx=&quot;7&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;34&quot; y=&quot;60&quot; width=&quot;132&quot; height=&quot;15&quot; rx=&quot;7&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;55&quot; y=&quot;49&quot; width=&quot;90&quot; height=&quot;12&quot; fill=&quot;#3a332e&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;120&quot; r=&quot;52&quot; fill=&quot;#F1C9A0&quot;/&gt;&lt;circle cx=&quot;49&quot; cy=&quot;122&quot; r=&quot;10&quot; fill=&quot;#F1C9A0&quot;/&gt;&lt;circle cx=&quot;151&quot; cy=&quot;122&quot; r=&quot;10&quot; fill=&quot;#F1C9A0&quot;/&gt;&lt;rect x=&quot;72&quot; y=&quot;98&quot; width=&quot;18&quot; height=&quot;5&quot; rx=&quot;2&quot; fill=&quot;#171310&quot;/&gt;&lt;rect x=&quot;112&quot; y=&quot;98&quot; width=&quot;18&quot; height=&quot;5&quot; rx=&quot;2&quot; fill=&quot;#171310&quot;/&gt;&lt;circle cx=&quot;81&quot; cy=&quot;112&quot; r=&quot;4&quot; fill=&quot;#171310&quot;/&gt;&lt;circle cx=&quot;119&quot; cy=&quot;112&quot; r=&quot;4&quot; fill=&quot;#171310&quot;/&gt;&lt;circle cx=&quot;119&quot; cy=&quot;112&quot; r=&quot;15&quot; fill=&quot;none&quot; stroke=&quot;#C79412&quot; stroke-width=&quot;3&quot;/&gt;&lt;line x1=&quot;119&quot; y1=&quot;127&quot; x2=&quot;130&quot; y2=&quot;152&quot; stroke=&quot;#C79412&quot; stroke-width=&quot;2&quot;/&gt;&lt;circle cx=&quot;72&quot; cy=&quot;134&quot; r=&quot;8&quot; fill=&quot;#EC9E93&quot; opacity=&quot;.55&quot;/&gt;&lt;circle cx=&quot;128&quot; cy=&quot;134&quot; r=&quot;8&quot; fill=&quot;#EC9E93&quot; opacity=&quot;.55&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;130&quot; r=&quot;7&quot; fill=&quot;#E3AE85&quot;/&gt;&lt;path d=&quot;M68 142 Q100 132 132 142 Q116 160 100 151 Q84 160 68 142Z&quot; fill=&quot;#fff&quot;/&gt;&lt;path d=&quot;M85 180 L100 189 L85 197 Z&quot; fill=&quot;#C0142B&quot;/&gt;&lt;path d=&quot;M115 180 L100 189 L115 197 Z&quot; fill=&quot;#C0142B&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;189&quot; r=&quot;4.5&quot; fill=&quot;#9B0C22&quot;/&gt;&lt;path d=&quot;M42 240 Q46 202 100 200 Q154 202 158 240 Z&quot; fill=&quot;#171310&quot;/&gt;&lt;path d=&quot;M100 200 L89 240 L111 240 Z&quot; fill=&quot;#fff&quot;/&gt;&lt;/svg&gt;
+  &lt;div class=&quot;col&quot;&gt;
+    &lt;div id=&quot;eh&quot;&gt;JACKPOT! &amp;#128176;&lt;/div&gt;
+    &lt;div id=&quot;es&quot;&gt;Spin, drop &amp;amp; win mega prizes every day in MONOPOLY GO!&lt;/div&gt;
+    &lt;button id=&quot;cta&quot; class=&quot;pulse&quot;&gt;PLAY FREE&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function(){
+&quot;use strict&quot;;
+var STORE={iOS:&quot;https://apps.apple.com/app/monopoly-go/id1621328561&quot;,Android:&quot;https://play.google.com/store/apps/details?id=com.scopely.monopolygo&quot;};
+var IS_IOS=/iP(hone|od|ad)/.test(navigator.userAgent);
+var started=false,dropped=false,done=false,AC=null,tmr=null,left=25;
+var pegs=[],raf=null;
+function openStore(){var u=IS_IOS?STORE.iOS:STORE.Android;if(window.mraid&amp;&amp;mraid.open){mraid.open(u);}}
+function tone(freq,t0,dur,vol,type){try{if(!AC)return;var o=AC.createOscillator(),g=AC.createGain();o.type=type||&quot;sine&quot;;o.frequency.value=freq;g.gain.setValueAtTime(0.0001,t0);g.gain.exponentialRampToValueAtTime(vol||0.2,t0+0.012);g.gain.exponentialRampToValueAtTime(0.0001,t0+dur);o.connect(g);g.connect(AC.destination);o.start(t0);o.stop(t0+dur+0.02);}catch(e){}}
+function ensureAC(){try{var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;if(!AC)AC=new Ctx();if(AC.state===&quot;suspended&quot;&amp;&amp;AC.resume)AC.resume();}catch(e){}}
+function tick2(f){ensureAC();tone(f,AC?AC.currentTime:0,0.05,0.1,&quot;sine&quot;);}
+function sfxCoin(t0){var f=[784,988,1175,1319,1568],i;for(i=0;i&lt;f.length;i++)tone(f[i],t0+i*0.05,0.2,0.15,&quot;triangle&quot;);}
+function sfxWin(){var t=AC?AC.currentTime:0,n=[523,659,784,1047,1319],i;for(i=0;i&lt;n.length;i++)tone(n[i],t+i*0.09,0.32,0.18,&quot;sine&quot;);}
+function coinBurst(x,y,n){
+  if(window.matchMedia&amp;&amp;matchMedia(&quot;(prefers-reduced-motion: reduce)&quot;).matches)return;
+  var i;for(i=0;i&lt;n;i++){(function(){
+    var c=document.createElement(&quot;div&quot;);c.className=&quot;coin&quot;;
+    c.innerHTML=&#x27;&lt;svg viewBox=&quot;0 0 30 30&quot; width=&quot;26&quot; height=&quot;26&quot;&gt;&lt;circle cx=&quot;15&quot; cy=&quot;15&quot; r=&quot;14&quot; fill=&quot;#C79412&quot;/&gt;&lt;circle cx=&quot;15&quot; cy=&quot;15&quot; r=&quot;11&quot; fill=&quot;#FFD54A&quot;/&gt;&lt;text x=&quot;15&quot; y=&quot;20&quot; font-size=&quot;14&quot; font-weight=&quot;900&quot; text-anchor=&quot;middle&quot; fill=&quot;#B47C0A&quot; font-family=&quot;Georgia,serif&quot;&gt;$&lt;/text&gt;&lt;/svg&gt;&#x27;;
+    c.style.left=x+&quot;px&quot;;c.style.top=y+&quot;px&quot;;document.body.appendChild(c);
+    var ang=(-90+(Math.random()*150-75))*Math.PI/180,sp=150+Math.random()*200;
+    var vx=Math.cos(ang)*sp,vy=Math.sin(ang)*sp,t0=null,dur=850+Math.random()*300;
+    function step(ts){if(!t0)t0=ts;var p=(ts-t0)/dur;if(p&gt;=1){if(c.parentNode)c.parentNode.removeChild(c);return;}
+      c.style.opacity=p&gt;0.75?String(1-(p-0.75)/0.25):&quot;1&quot;;
+      c.style.webkitTransform=c.style.transform=&quot;translate(&quot;+(vx*p)+&quot;px,&quot;+(vy*p+430*p*p)+&quot;px) rotate(&quot;+(p*520)+&quot;deg)&quot;;
+      requestAnimationFrame(step);}
+    requestAnimationFrame(step);})();}
+}
+function layout(){
+  var board=document.getElementById(&quot;board&quot;),bw=board.clientWidth,bh=board.clientHeight;
+  var old=board.getElementsByClassName(&quot;peg&quot;);while(old.length)old[0].parentNode.removeChild(old[0]);
+  pegs=[];
+  var rows=6,topY=bh*0.22,botY=bh-92,gapY=(botY-topY)/(rows-1);
+  var r,c;
+  for(r=0;r&lt;rows;r++){
+    var cnt=(r%2===0)?6:7;
+    var margin=bw*0.10,usable=bw-2*margin,step=usable/(cnt-1);
+    for(c=0;c&lt;cnt;c++){
+      var x=margin+step*c,y=topY+gapY*r;
+      var p=document.createElement(&quot;div&quot;);p.className=&quot;peg&quot;;p.style.left=x+&quot;px&quot;;p.style.top=y+&quot;px&quot;;
+      board.appendChild(p);pegs.push({x:x,y:y});
+    }
+  }
+  return {bw:bw,bh:bh,botY:botY};
+}
+function drop(){
+  if(!started||dropped||done)return;dropped=true;
+  document.getElementById(&quot;prompt&quot;).className=&quot;hide&quot;;
+  var geo=layout();
+  var board=document.getElementById(&quot;board&quot;),ball=document.getElementById(&quot;ball&quot;);
+  var bw=geo.bw,cx=bw/2,x=cx+(Math.random()*20-10),y=16,vx=(Math.random()*2-1)*1.2,vy=0;
+  var botY=geo.botY,landY=botY-6,pr=8,br=16,lastHit=0;
+  function frame(){
+    vy+=0.42;
+    // pull toward center, ramping up near the bottom so it funnels into JACKPOT
+    var pull=(cx-x)*(0.010+0.055*(y/botY));
+    vx+=pull;
+    x+=vx;y+=vy;
+    // walls
+    if(x&lt;br){x=br;vx=Math.abs(vx)*0.6;}
+    if(x&gt;bw-br){x=bw-br;vx=-Math.abs(vx)*0.6;}
+    // pegs
+    var i;for(i=0;i&lt;pegs.length;i++){
+      var dx=x-pegs[i].x,dy=y-pegs[i].y,d=Math.sqrt(dx*dx+dy*dy),min=pr+br-4;
+      if(d&lt;min&amp;&amp;d&gt;0){
+        var nx=dx/d,ny=dy/d;
+        x=pegs[i].x+nx*min;y=pegs[i].y+ny*min;
+        var dot=vx*nx+vy*ny;
+        vx=(vx-2*dot*nx)*0.55+(Math.random()*1.4-0.7);
+        vy=(vy-2*dot*ny)*0.55;
+        if(vy&lt;1.5)vy=1.8;
+        var now=Date.now();if(now-lastHit&gt;40){tick2(500+Math.random()*400);lastHit=now;}
+      }
+    }
+    ball.style.left=x+&quot;px&quot;;ball.style.top=y+&quot;px&quot;;
+    if(y&gt;=landY){land(x,bw);return;}
+    raf=requestAnimationFrame(frame);
+  }
+  raf=requestAnimationFrame(frame);
+}
+function land(x,bw){
+  done=true;stopTimer();
+  var ball=document.getElementById(&quot;ball&quot;);ball.style.left=(bw/2)+&quot;px&quot;;
+  var slots=document.getElementsByClassName(&quot;slot&quot;),jack=slots[3];
+  jack.className=&quot;slot jack win&quot;;
+  var jr=jack.getBoundingClientRect();
+  var cp=document.getElementById(&quot;cashpop&quot;);cp.innerHTML=&quot;JACKPOT!&lt;br&gt;+$5,000,000&quot;;cp.className=&quot;show&quot;;
+  sfxCoin(AC?AC.currentTime:0);sfxWin();
+  coinBurst(jr.left+jr.width/2,jr.top,22);
+  setTimeout(function(){coinBurst(window.innerWidth/2,window.innerHeight*0.4,16);},280);
+  setTimeout(showEnd,1550);
+}
+function showEnd(){document.getElementById(&quot;endcard&quot;).className=&quot;show&quot;;}
+function tick(){left--;if(left&lt;=0){stopTimer();if(!done){done=true;if(!dropped){document.getElementById(&quot;prompt&quot;).className=&quot;hide&quot;;}showEnd();}}}
+function startTimer(){if(tmr)return;tmr=setInterval(tick,1000);}
+function stopTimer(){if(tmr){clearInterval(tmr);tmr=null;}}
+function bind(){
+  document.getElementById(&quot;board&quot;).addEventListener(&quot;click&quot;,drop,false);
+  document.getElementById(&quot;cta&quot;).addEventListener(&quot;click&quot;,openStore,false);
+  document.getElementById(&quot;minicta&quot;).addEventListener(&quot;click&quot;,openStore,false);
+  layout();
+}
+function showAd(){started=true;document.body.className=&quot;&quot;;layout();startTimer();}
+function resumeAd(){document.body.className=&quot;&quot;;ensureAC();if(!done&amp;&amp;!dropped)startTimer();}
+function pauseAd(){document.body.className=&quot;paused&quot;;if(AC&amp;&amp;AC.suspend)AC.suspend();stopTimer();}
+function onView(v){if(v){started?resumeAd():showAd();}else{pauseAd();}}
+function onReady(){mraid.addEventListener(&quot;viewableChange&quot;,onView);if(mraid.isViewable())showAd();}
+function start(){bind();if(window.mraid){if(mraid.getState()===&quot;loading&quot;){mraid.addEventListener(&quot;ready&quot;,onReady);}else{onReady();}}}
+document.addEventListener(&quot;visibilitychange&quot;,function(){if(document.hidden){pauseAd();}else if(!window.mraid||mraid.isViewable()){if(started)resumeAd();}},false);
+window.addEventListener(&quot;resize&quot;,function(){if(started&amp;&amp;!dropped)layout();},false);
+start();
+})();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"></iframe></div><button class="replay" onclick="var f=document.getElementById('pf3');f.srcdoc=f.srcdoc;">&#8635;&nbsp;REPLAY</button></div><div class="meta"><div class="name">Peg-E Prize Drop<span class="live">LIVE</span></div><div class="fmt">PHYSICS DROP &middot; 1 TAP</div><div class="hook">Tap to drop Mr. Monopoly&rsquo;s token down the pegboard &mdash; it bounces, rattles and funnels into the JACKPOT slot for +$5M. Inherently satisfying, lowest-friction entry in the set.</div><div class="thesis"><b>Tests:</b> a pure one-tap physics hook against the mechanic-led concepts &mdash; the friction floor for IPM.</div><div class="file">MonopolyGO_PrizeDrop_1T.html</div></div></div></div><h2>The untested edge &mdash; identity</h2><div class="grid"><div class="card"><div class="phonewrap"><div class="phone"><iframe id="pf4" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;&gt;
+&lt;title&gt;MONOPOLY GO Playable — Which Token Are You?&lt;/title&gt;
+&lt;style&gt;
+html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);font-family:-apple-system,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,sans-serif}
+body{background:#146c3a;background:-webkit-radial-gradient(50% 26%,#1c8a4c 0%,#0e5c31 72%,#083c20 100%);background:radial-gradient(circle at 50% 26%,#1c8a4c 0%,#0e5c31 72%,#083c20 100%)}
+#stage{position:absolute;top:0;left:0;right:0;bottom:0;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;touch-action:manipulation}
+#banner{margin-top:5%;text-align:center}
+.logo{display:inline-block;background:#ED1B24;color:#fff;font-weight:900;letter-spacing:1px;font-size:23px;padding:6px 16px;border-radius:10px;border:3px solid #fff;box-shadow:0 4px 0 #9B0C16,0 6px 14px rgba(0,0,0,.35);text-shadow:0 2px 0 #9B0C16;-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}
+.logo small{font-size:14px;vertical-align:3px;letter-spacing:2px}
+#tag{color:#FFD54A;font-weight:900;font-size:14px;letter-spacing:2px;margin-top:9px}
+#prog{width:84%;max-width:460px;margin-top:14px;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center}
+#pbar{-webkit-flex:1;flex:1;height:14px;background:rgba(255,255,255,.22);border-radius:8px;overflow:hidden}
+#pfill{width:33%;height:100%;background:#FFD54A;border-radius:8px;-webkit-transition:width .4s ease;transition:width .4s ease}
+#pnum{margin-left:10px;color:#fff;font-weight:900;font-size:13px;white-space:nowrap}
+#qwrap{-webkit-flex:1;flex:1;width:88%;max-width:480px;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-justify-content:center;justify-content:center;min-height:0}
+#qtitle{color:#fff;font-size:22px;font-weight:900;text-align:center;margin:0 0 5%;text-shadow:0 2px 3px rgba(0,0,0,.35)}
+#grid{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;-webkit-justify-content:space-between;justify-content:space-between}
+.opt{width:48%;margin-bottom:14px;background:#F7EFDD;border:0;border-radius:16px;box-shadow:0 5px 0 #cbb98f;padding:16px 8px;cursor:pointer;text-align:center;color:#4a3a1a;-webkit-transition:-webkit-transform .1s;transition:transform .1s}
+.opt:active{-webkit-transform:translateY(3px);transform:translateY(3px);box-shadow:0 2px 0 #cbb98f}
+.opt .emo{font-size:38px;line-height:1;display:block;margin-bottom:6px}
+.opt .lab{font-size:14px;font-weight:800;line-height:1.15}
+.opt.pick{background:#FFD54A;box-shadow:0 5px 0 #C79412}
+#minicta{position:absolute;left:50%;bottom:3.5%;-webkit-transform:translateX(-50%);transform:translateX(-50%);padding:11px 24px;border:0;border-radius:14px;background:#FFD54A;box-shadow:0 5px 0 #C79412;color:#7a5600;font-size:14px;font-weight:900;letter-spacing:.6px;cursor:pointer;z-index:8}
+/* result */
+#result{position:absolute;top:0;left:0;right:0;bottom:0;background:#ED1B24;background:-webkit-radial-gradient(50% 22%,#ff3a43,#c50f18);background:radial-gradient(circle at 50% 22%,#ff3a43,#c50f18);display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;opacity:0;visibility:hidden;-webkit-transition:opacity .4s ease;transition:opacity .4s ease;z-index:30}
+#result.show{opacity:1;visibility:visible}
+#medal{width:150px;height:150px;border-radius:50%;background:#FFD54A;background:-webkit-radial-gradient(40% 35%,#FFE9A8,#F0B429 70%,#D69412);background:radial-gradient(circle at 40% 35%,#FFE9A8,#F0B429 70%,#D69412);display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;box-shadow:0 0 0 6px rgba(255,255,255,.35),0 10px 24px rgba(0,0,0,.4);border:5px solid #fff}
+#medal .temo{font-size:78px;line-height:1}
+#rkick{color:#FFE08A;font-weight:900;font-size:14px;letter-spacing:2px;margin-top:16px}
+#rname{color:#fff;font-size:30px;font-weight:900;margin:2px 6% 8px;text-align:center;text-shadow:0 2px 0 #9B0C16}
+#rtrait{color:#FFE9C2;font-size:15px;font-weight:700;margin:0 11% 20px;text-align:center;line-height:1.45}
+#cta{padding:16px 42px;border:0;border-radius:16px;background:#FFD54A;box-shadow:0 6px 0 #C79412;color:#7a5600;font-size:18px;font-weight:900;letter-spacing:1px;cursor:pointer}
+.pulse{-webkit-animation:pulse 1.3s ease-in-out infinite;animation:pulse 1.3s ease-in-out infinite}
+@-webkit-keyframes pulse{0%,100%{-webkit-transform:scale(1)}50%{-webkit-transform:scale(1.06)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+.pop{-webkit-animation:pop .5s cubic-bezier(.34,1.7,.5,1);animation:pop .5s cubic-bezier(.34,1.7,.5,1)}
+@-webkit-keyframes pop{0%{-webkit-transform:scale(0)}70%{-webkit-transform:scale(1.12)}100%{-webkit-transform:scale(1)}}
+@keyframes pop{0%{transform:scale(0)}70%{transform:scale(1.12)}100%{transform:scale(1)}}
+.confetti{position:absolute;width:10px;height:14px;z-index:16;pointer-events:none;opacity:0}
+body.paused *{-webkit-animation-play-state:paused !important;animation-play-state:paused !important}
+@media (prefers-reduced-motion:reduce){.pulse{-webkit-animation:none;animation:none}}
+@media (orientation:landscape){
+  #banner{margin-top:2%}.logo{font-size:19px}#tag{margin-top:4px}
+  #qtitle{font-size:19px;margin-bottom:3%}
+  .opt{padding:10px 8px}.opt .emo{font-size:30px}
+  #result{-webkit-flex-direction:row;flex-direction:row}
+  #medal{width:118px;height:118px;margin-right:5%}#medal .temo{font-size:60px}
+  #rcol{max-width:52%;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center}
+  #rname{font-size:24px}
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body class=&quot;paused&quot;&gt;&lt;script&gt;window.mraid={_l:{},getState:function(){return &quot;default&quot;},isViewable:function(){return true},addEventListener:function(e,f){this._l[e]=f},removeEventListener:function(){},open:function(u){window.open(u,&quot;_blank&quot;)}};&lt;/script&gt;
+&lt;div id=&quot;stage&quot;&gt;
+  &lt;div id=&quot;banner&quot;&gt;&lt;span class=&quot;logo&quot;&gt;MONOPOLY &lt;small&gt;GO!&lt;/small&gt;&lt;/span&gt;&lt;div id=&quot;tag&quot;&gt;&amp;#127918; WHICH TOKEN ARE YOU?&lt;/div&gt;&lt;/div&gt;
+  &lt;div id=&quot;prog&quot;&gt;&lt;div id=&quot;pbar&quot;&gt;&lt;div id=&quot;pfill&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id=&quot;pnum&quot;&gt;1 / 3&lt;/div&gt;&lt;/div&gt;
+  &lt;div id=&quot;qwrap&quot;&gt;
+    &lt;h2 id=&quot;qtitle&quot;&gt;&lt;/h2&gt;
+    &lt;div id=&quot;grid&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;button id=&quot;minicta&quot;&gt;GET THE APP&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&quot;result&quot;&gt;
+  &lt;div id=&quot;medal&quot;&gt;&lt;span class=&quot;temo&quot; id=&quot;temo&quot;&gt;&amp;#127950;&lt;/span&gt;&lt;/div&gt;
+  &lt;div id=&quot;rcol&quot;&gt;
+    &lt;div id=&quot;rkick&quot;&gt;YOUR TOKEN IS&amp;hellip;&lt;/div&gt;
+    &lt;div id=&quot;rname&quot;&gt;The Race Car&lt;/div&gt;
+    &lt;div id=&quot;rtrait&quot;&gt;&lt;/div&gt;
+    &lt;button id=&quot;cta&quot; class=&quot;pulse&quot;&gt;PLAY FREE&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function(){
+&quot;use strict&quot;;
+var STORE={iOS:&quot;https://apps.apple.com/app/monopoly-go/id1621328561&quot;,Android:&quot;https://play.google.com/store/apps/details?id=com.scopely.monopolygo&quot;};
+var IS_IOS=/iP(hone|od|ad)/.test(navigator.userAgent);
+var started=false,done=false,qi=0,busy=false,AC=null,tmr=null,left=30;
+var votes=[0,0,0,0];
+var TOKENS=[
+  {emo:&quot;🏎️&quot;,name:&quot;The Race Car&quot;,trait:&quot;Fast &amp;amp; fearless — you’re first around the board and you play to &lt;b&gt;win&lt;/b&gt;. Roll big, chase every prize.&quot;},
+  {emo:&quot;🎩&quot;,name:&quot;The Top Hat&quot;,trait:&quot;The classic tycoon — cool, calculated, always three moves ahead. You build an empire that lasts.&quot;},
+  {emo:&quot;🐕&quot;,name:&quot;The Scottie Dog&quot;,trait:&quot;Loyal &amp;amp; social — you team up, trade stickers and heist your friends (with love). Never play alone.&quot;},
+  {emo:&quot;🚢&quot;,name:&quot;The Battleship&quot;,trait:&quot;The defender — shields up, bank locked. Nobody raids your board twice. Slow, steady, unstoppable.&quot;}
+];
+var QS=[
+  {q:&quot;It’s your turn — what’s the plan?&quot;,o:[
+    {e:&quot;🎲&quot;,l:&quot;Roll big, go fast&quot;},{e:&quot;🧠&quot;,l:&quot;Play it smart&quot;},
+    {e:&quot;🤝&quot;,l:&quot;Team up with friends&quot;},{e:&quot;🔒&quot;,l:&quot;Guard my stash&quot;}]},
+  {q:&quot;A rival just got rich. You…&quot;,o:[
+    {e:&quot;🏁&quot;,l:&quot;Race to out-earn them&quot;},{e:&quot;🏛️&quot;,l:&quot;Quietly build my empire&quot;},
+    {e:&quot;🎁&quot;,l:&quot;Gift them… then rob ’em&quot;},{e:&quot;🛡️&quot;,l:&quot;Shield up &amp;amp; wait&quot;}]},
+  {q:&quot;Pick your dream prize&quot;,o:[
+    {e:&quot;💰&quot;,l:&quot;A mega dice roll&quot;},{e:&quot;🏰&quot;,l:&quot;A gold landmark&quot;},
+    {e:&quot;🎯&quot;,l:&quot;A full sticker set&quot;},{e:&quot;🛡️&quot;,l:&quot;An unbreakable shield&quot;}]}
+];
+function openStore(){var u=IS_IOS?STORE.iOS:STORE.Android;if(window.mraid&amp;&amp;mraid.open){mraid.open(u);}}
+function tone(freq,t0,dur,vol,type){try{if(!AC)return;var o=AC.createOscillator(),g=AC.createGain();o.type=type||&quot;sine&quot;;o.frequency.value=freq;g.gain.setValueAtTime(0.0001,t0);g.gain.exponentialRampToValueAtTime(vol||0.2,t0+0.015);g.gain.exponentialRampToValueAtTime(0.0001,t0+dur);o.connect(g);g.connect(AC.destination);o.start(t0);o.stop(t0+dur+0.02);}catch(e){}}
+function ensureAC(){try{var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;if(!AC)AC=new Ctx();if(AC.state===&quot;suspended&quot;&amp;&amp;AC.resume)AC.resume();}catch(e){}}
+function ding(){ensureAC();var t=AC?AC.currentTime:0;tone(659,t,0.12,0.16,&quot;sine&quot;);tone(880,t+0.09,0.16,0.16,&quot;sine&quot;);}
+function sfxWin(){var t=AC?AC.currentTime:0,n=[523,659,784,1047,1319],i;for(i=0;i&lt;n.length;i++)tone(n[i],t+i*0.09,0.32,0.18,&quot;sine&quot;);}
+function confetti(){
+  if(window.matchMedia&amp;&amp;matchMedia(&quot;(prefers-reduced-motion: reduce)&quot;).matches)return;
+  var cols=[&quot;#FFD54A&quot;,&quot;#fff&quot;,&quot;#4E9F3D&quot;,&quot;#5BC0EB&quot;,&quot;#ffb3b8&quot;],i;
+  for(i=0;i&lt;28;i++){(function(){
+    var d=document.createElement(&quot;div&quot;);d.className=&quot;confetti&quot;;d.style.background=cols[(Math.random()*cols.length)|0];
+    var x=window.innerWidth/2+(Math.random()*window.innerWidth*0.8-window.innerWidth*0.4),y=window.innerHeight*0.3;
+    d.style.left=x+&quot;px&quot;;d.style.top=y+&quot;px&quot;;document.body.appendChild(d);
+    var vx=(Math.random()*2-1)*160,vy=-(120+Math.random()*180),t0=null,dur=1100+Math.random()*500;
+    function step(ts){if(!t0)t0=ts;var p=(ts-t0)/dur;if(p&gt;=1){if(d.parentNode)d.parentNode.removeChild(d);return;}
+      d.style.opacity=p&lt;0.1?String(p/0.1):String(1-p);
+      d.style.webkitTransform=d.style.transform=&quot;translate(&quot;+(vx*p)+&quot;px,&quot;+(vy*p+520*p*p)+&quot;px) rotate(&quot;+(p*700)+&quot;deg)&quot;;
+      requestAnimationFrame(step);}
+    requestAnimationFrame(step);})();}
+}
+function renderQ(){
+  var Q=QS[qi];document.getElementById(&quot;qtitle&quot;).innerHTML=Q.q;
+  var g=document.getElementById(&quot;grid&quot;),html=&quot;&quot;,i;
+  for(i=0;i&lt;Q.o.length;i++){html+=&#x27;&lt;button class=&quot;opt&quot; data-k=&quot;&#x27;+i+&#x27;&quot;&gt;&lt;span class=&quot;emo&quot;&gt;&#x27;+Q.o[i].e+&#x27;&lt;/span&gt;&lt;span class=&quot;lab&quot;&gt;&#x27;+Q.o[i].l+&#x27;&lt;/span&gt;&lt;/button&gt;&#x27;;}
+  g.innerHTML=html;
+  var opts=g.getElementsByClassName(&quot;opt&quot;);
+  for(i=0;i&lt;opts.length;i++){opts[i].addEventListener(&quot;click&quot;,onPick,false);}
+  document.getElementById(&quot;pnum&quot;).innerHTML=(qi+1)+&quot; / 3&quot;;
+  document.getElementById(&quot;pfill&quot;).style.width=((qi+1)/3*100)+&quot;%&quot;;
+}
+function onPick(ev){
+  if(!started||busy||done)return;busy=true;
+  var el=ev.currentTarget,k=parseInt(el.getAttribute(&quot;data-k&quot;),10);
+  votes[k]++;el.className=&quot;opt pick&quot;;ding();
+  setTimeout(function(){
+    qi++;
+    if(qi&gt;=3){finish();}
+    else{renderQ();busy=false;}
+  },420);
+}
+function finish(){
+  done=true;stopTimer();
+  var best=0,i;for(i=1;i&lt;4;i++){if(votes[i]&gt;votes[best])best=i;}
+  var T=TOKENS[best];
+  document.getElementById(&quot;temo&quot;).innerHTML=T.emo;
+  document.getElementById(&quot;rname&quot;).innerHTML=T.name;
+  document.getElementById(&quot;rtrait&quot;).innerHTML=T.trait;
+  document.getElementById(&quot;medal&quot;).className=&quot;pop&quot;;
+  document.getElementById(&quot;result&quot;).className=&quot;show&quot;;
+  setTimeout(function(){confetti();sfxWin();},200);
+}
+function tick(){left--;if(left&lt;=0){stopTimer();if(!done){finish();}}}
+function startTimer(){if(tmr)return;tmr=setInterval(tick,1000);}
+function stopTimer(){if(tmr){clearInterval(tmr);tmr=null;}}
+function bind(){
+  renderQ();
+  document.getElementById(&quot;cta&quot;).addEventListener(&quot;click&quot;,openStore,false);
+  document.getElementById(&quot;minicta&quot;).addEventListener(&quot;click&quot;,openStore,false);
+}
+function showAd(){started=true;document.body.className=&quot;&quot;;startTimer();}
+function resumeAd(){document.body.className=&quot;&quot;;ensureAC();if(!done)startTimer();}
+function pauseAd(){document.body.className=&quot;paused&quot;;if(AC&amp;&amp;AC.suspend)AC.suspend();stopTimer();}
+function onView(v){if(v){started?resumeAd():showAd();}else{pauseAd();}}
+function onReady(){mraid.addEventListener(&quot;viewableChange&quot;,onView);if(mraid.isViewable())showAd();}
+function start(){bind();if(window.mraid){if(mraid.getState()===&quot;loading&quot;){mraid.addEventListener(&quot;ready&quot;,onReady);}else{onReady();}}}
+document.addEventListener(&quot;visibilitychange&quot;,function(){if(document.hidden){pauseAd();}else if(!window.mraid||mraid.isViewable()){if(started)resumeAd();}},false);
+start();
+})();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"></iframe></div><button class="replay" onclick="var f=document.getElementById('pf4');f.srcdoc=f.srcdoc;">&#8635;&nbsp;REPLAY</button></div><div class="meta"><div class="name">Which Token Are You?<span class="live">LIVE</span></div><div class="fmt hot">PERSONALITY QUIZ &middot; 3 TAPS</div><div class="hook">Three quick questions &mdash; how you play, how you handle a rich rival, your dream prize &mdash; reveal your token: Race Car, Top Hat, Scottie Dog or Battleship, with a personalized result and CTA.</div><div class="thesis"><b>Tests:</b> identity &amp; self-segmentation &mdash; the crowd-favorite format no MGO playable has tried. The result reveals play-style Unity can lean into for lookalikes.</div><div class="file">MonopolyGO_TokenQuiz_3T.html</div></div></div></div>
+<h2>Suggested test matrix</h2><table><tr><th>Cell</th><th>Creatives</th><th>Question it answers</th><th>Primary KPI</th></tr><tr><td>A &mdash; Friction</td><td>Dice Roll 1T vs. Build Your Board 3+</td><td>Does a deeper interaction qualify installs, or cost you volume?</td><td>IPM &rarr; D7 retention</td></tr><tr><td>B &mdash; Hook</td><td>Bank Heist vs. Which Token Are You?</td><td>Aggression / envy vs. identity &mdash; which emotion converts?</td><td>CTR &rarr; CVR</td></tr><tr><td>C &mdash; Mechanic</td><td>Dice Roll vs. Peg-E Prize Drop</td><td>Which &ldquo;satisfying&rdquo; one-tap mechanic wins the swipe?</td><td>CTR &rarr; IPM</td></tr><tr><td>D &mdash; Payoff</td><td>Bank Heist (steal) vs. Build Board (grow)</td><td>Instant cash-win vs. progression &mdash; which reward framing drives quality?</td><td>CVR &rarr; D7 ROAS</td></tr></table>
+<div class="note"><b>About these builds:</b> every creative on this page is a working concept build, playable right now. Final versions ship with your official MONOPOLY GO assets &mdash; Mr. Monopoly, token renders, board art, dice and approved copy from the brand kit (the versions here use brand-faithful recreations so the mechanics can be reviewed today). Both store CTAs are already wired with automatic iOS / Android detection, and every creative is fully Unity-spec compliant (MRAID 3.0 &middot; single file &middot; &lt;5&nbsp;MB &middot; both orientations) &mdash; ready to move into campaign QA as soon as concepts are approved.</div>
+<footer>Playables replace the standard dice-slider creative with the full core loop &mdash; roll, heist, build, drop and identity. Benchmarks: AppAgent &ldquo;State of Playable Ads 2025&rdquo;; Admiral Media playable UA guide. Store links: Monopoly GO on the App Store &amp; Google Play.</footer>
+</div>
+</body>
+</html>
